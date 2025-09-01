@@ -1,0 +1,26 @@
+@startuml
+autonumber
+
+skinparam sequence {
+ArrowColor gray
+ActorBorderColor gray
+LifeLineBorderColor black
+}
+skinparam shadowing false
+hide footbox
+
+participant 醫院 #d1ebf1
+participant HPA  #D5E8D4
+醫院 -> HPA: 上傳身體活動與飲食申請證明書（Bundle PAD）
+醫院 -> HPA: 上傳身體活動與飲食申請證明相關文件（意即Bundle PAD所參照的附件）
+alt 上傳成功
+    醫院 -> HPA: 取得上傳成功訊息
+    alt 申請通過
+        醫院 -> HPA: 取得申請通過訊息
+    else 申請失敗
+        醫院 -> HPA: 取得申請未通過訊息
+    end
+else 上傳失敗
+    醫院 -> HPA: 取得上傳失敗訊息
+end
+@enduml
