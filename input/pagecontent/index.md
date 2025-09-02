@@ -17,7 +17,7 @@
 #### 使用案例(Use Case)
 <div  style="padding-left: 10px;"> 
 <p>To Do...</p>
-<img class="figure-img img-responsive img-rounded center-block" src="usecase.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 45%;"/>
+<!--img class="figure-img img-responsive img-rounded center-block" src="usecase.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 45%;"/-->
 </div>
 
 #### 循序圖
@@ -25,14 +25,14 @@
 
 作業流程如下：
 To Do...
-<div style="justify-content: center;display: flex;">{% include index.svg %}</div>
+<!--div style="justify-content: center;display: flex;">{% include index.svg %}</div>
 <!--For CI-Build> <img class="figure-img img-responsive img-rounded center-block" src="sequence.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 45%;"/> <-->
 
 ### 如何閱讀這個實作指引(IG)
 <div  style="padding-left: 10px;"> 
 <p>PAD IG之網站架構圖如下圖所示。各功能說明如下：</p>
 
-<img class="figure-img img-responsive img-rounded center-block" src="structure.png" alt="IG架構圖" style="display: block;margin-left: auto;margin-right: auto;width: 90%;"/>
+<!--img class="figure-img img-responsive img-rounded center-block" src="structure.png" alt="IG架構圖" style="display: block;margin-left: auto;margin-right: auto;width: 90%;"/-->
 <div style="clear:both;"></div>
 
 <ul>
@@ -60,7 +60,7 @@ To Do...
 	<li><strong><a href="examples.html">範例</a></strong>：PAD IG所定義Profiles之範例檔。</li>
 	<li><strong><a href="downloads.html">定義與範例檔下載</a></strong>：實作者若不偏好使用FHIR RESTful API驗證資料是否符合Profiles，可直接下載所需的格式驗證檔，包括XML、JSON及Turtle三種格式，亦可於此下載完整範例檔。</li>
 	<li><strong><a href="security.html">安全性</a></strong>：主要說明採用PAD IG網站進行實作時，有關資料存取授權的作法。</li>
-	<li><strong><a href="https://vacc.cdc.gov.tw/vacc/history.html">版本異動</a></strong>：若PAD IG網站的版本有所異動，皆可透過<a href="https://vacc.cdc.gov.tw/vacc/history.html">異動說明頁</a>得以瞭解版本間的異動差異。</li>
+	<li><strong><a href="#">版本異動</a></strong>：若PAD IG網站的版本有所異動，皆可透過<a href="#">異動說明頁</a>得以瞭解版本間的異動差異。</li>
 </ul>
 </div>
 
@@ -75,9 +75,8 @@ To Do...
     </thead>
     <tbody>
         <tr>
-            <td style="vertical-align: middle;">作者-IG</td>
             <td style="vertical-align: middle;">李麗惠</td>
-            <td rowspan="3" style="vertical-align: middle;">國立臺北護理健康大學-健康事業管理系</td>
+            <td rowspan="2" style="vertical-align: middle;">國立臺北護理健康大學-健康事業管理系</td>
         </tr>
         <tr>
             <td>作者-IG</td>
