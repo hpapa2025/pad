@@ -75,12 +75,9 @@ To Do...
     </thead>
     <tbody>
         <tr>
-            <td style="vertical-align: middle;">李麗惠</td>
-            <td rowspan="2" style="vertical-align: middle;">國立臺北護理健康大學-健康事業管理系</td>
-        </tr>
-        <tr>
             <td>作者-IG</td>
             <td>曾鈺珈</td>
+            <td rowspan="2" style="vertical-align: middle;">國立臺北護理健康大學-健康事業管理系</td>
         </tr>
         <tr>
             <td>作者-IG</td>
