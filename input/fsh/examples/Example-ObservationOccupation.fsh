@@ -8,6 +8,7 @@ Usage: #example
 * code = http://loinc.org#11341-5 "History of Occupation"
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
+* effectivePeriod.start = "2015-04-24"
 * valueCodeableConcept = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/occupation-lia-roc-tw#04020030 "經理人員、行政人員"
 
 * text.status = #generated

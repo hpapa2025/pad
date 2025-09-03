@@ -52,8 +52,8 @@ pages:
     title: 查詢參數
   models.md:
     title: 邏輯模型
-  profiles.md:
-    title: FHIR Profiles
+  profiles-and-extensions.md:
+    title: FHIR Profiles及Extensions
   terminologies.md:
     title: 專門術語
   examples.md:

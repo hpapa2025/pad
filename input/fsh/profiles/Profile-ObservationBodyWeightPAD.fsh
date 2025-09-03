@@ -1,6 +1,6 @@
 Profile:        ObservationBodyWeightPAD
 Parent:         TWCoreObservationBodyWeight
-Id:             Observation-body-Weight-pad
+Id:             Observation-body-weight-pad
 Title:          "體重-Observation Body Weight PAD"
 Description:    "此體重-Observation Body Weight PAD Profile說明PAD IG如何進一步定義臺灣核心-體重（TW Core Observation Body Weight） Profile以呈現與體重的詳細記錄。"
 * status = #final

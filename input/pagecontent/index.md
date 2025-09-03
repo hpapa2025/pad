@@ -32,7 +32,7 @@ To Do...
 <div  style="padding-left: 10px;"> 
 <p>PAD IG之網站架構圖如下圖所示。各功能說明如下：</p>
 
-<!--img class="figure-img img-responsive img-rounded center-block" src="structure.png" alt="IG架構圖" style="display: block;margin-left: auto;margin-right: auto;width: 90%;"/-->
+<img class="figure-img img-responsive img-rounded center-block" src="structure.png" alt="IG架構圖" style="display: block;margin-left: auto;margin-right: auto;width: 90%;">
 <div style="clear:both;"></div>
 
 <ul>
@@ -46,9 +46,9 @@ To Do...
 		<li><strong><a href="models.html">邏輯模型</a>
 			</strong>：PAD IG的所有邏輯模型(Logical Models)，邏輯模型會定義相應情境下使用的所有資料欄位。為了便於實作者快速理解，資料欄位會使用易於理解的命名，實作者再透過邏輯模型中的功能頁籤「Mappings」瞭解各資料欄位實際使用PAD IG的哪個Profiles的哪個資料項目(element)。
 		</li>
-    	<li><strong><a href="profiles.html">FHIR Profiles</a></strong>：
+    	<li><strong><a href="profiles-and-extensions.html">FHIR Profiles及Extensions</a></strong>：
         	<ul>
-          		<li>PAD IG的所有Profiles之定義與範例。</li>
+          		<li>PAD IG的所有Profiles之定義與範例及Extensions。</li>
           		<li>各資料項目不同實作強制程度的Terminology。</li>
         	</ul>
       	</li>

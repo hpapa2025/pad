@@ -15,7 +15,7 @@ Usage: #example
 * target[0].detailQuantity.value = 210
 * target[0].detailQuantity.unit = "min"
 * target[0].detailQuantity.system = "http://unitsofmeasure.org"
-* target[0].detailQuantity.code = #kcal
+* target[0].detailQuantity.code = #min
 
 * target[0].dueDuration.value = 1
 * target[0].dueDuration.unit = "週"

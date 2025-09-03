@@ -14,6 +14,8 @@ Usage: #example
 
 * target[0].detailQuantity.value = 6
 * target[0].detailQuantity.unit = "樓"
+* target[0].dueDuration.system = "http://unitsofmeasure.org"
+* target[0].detailQuantity.unit = "/d"
 
 * target[0].dueDuration.value = 1
 * target[0].dueDuration.unit = "天"
@@ -29,6 +31,6 @@ Usage: #example
     <p><b>目標說明</b>：設定每日的爬升樓層目標</p>
     <p><b>使用者</b>：<a href=\"Patient-pat-min.html\">Patient/pat-min</a></p>
     <p><b>目標紀錄日期</b>：2025-08-30</p>
-    <p><b>爬升樓層目標</b>：6 樓</p>
+    <p><b>爬升樓層目標</b>：6 樓/天</p>
     <p><b>目標期限</b>：1 天內</p>
 </div>"

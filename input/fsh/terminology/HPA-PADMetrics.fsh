@@ -21,6 +21,7 @@ Description:    "HPA-身體活動與飲食指標"
 * #energyExpended "預估消耗熱量" "預估消耗熱量"
 * #exerciseIntensity "運動強度" "運動強度"
 * #exerciseRecordSource "運動紀錄來源" "運動紀錄來源"
+* #dietRecorde "飲食紀錄" "飲食紀錄"
 
 
 ValueSet:       PADMetrics
