@@ -26,7 +26,7 @@ Parent:         TWCoreBundle
 Id:             Bundle-water-intake-pad
 Title:          "飲水紀錄-Bundle TWPAS"
 Description:    "此飲水紀錄-Bundle TWPAS Profile說明本IG如何進一步定義資料交換基本單位(TW Core Bundle) Profile以呈現飲水紀錄之內容"
-* type = #collection
+* type = #transaction
 * entry 1..* MS
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "resource"
