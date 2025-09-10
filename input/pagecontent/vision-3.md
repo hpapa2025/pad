@@ -1,4 +1,4 @@
-### 飲食紀錄之Bundle架構(Bundle Applying)
+### 飲食紀錄之Bundle架構(Bundle Diet Record PAD)
 <div  style="padding-left: 10px;"> 
 飲食紀錄透過Bundle打包以下資料(相關對應表可以參照飲食紀錄之資料模型中的<a href="StructureDefinition-DietRecordModel.html">Mappings</a>)：
 <ul>

@@ -1,4 +1,4 @@
-### 運動紀錄之Bundle架構(Bundle Applying)
+### 運動紀錄之Bundle架構(Bundle Physical Activity PAD)
 <div  style="padding-left: 10px;"> 
 運動紀錄透過Bundle打包以下資料(相關對應表可以參照運動紀錄之資料模型中的<a href="StructureDefinition-PhysicalActivityModel.html">Mappings</a>)：
 <ul>

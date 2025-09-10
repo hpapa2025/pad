@@ -1,4 +1,4 @@
-### 自填調查表之Bundle架構(Bundle Applying)
+### 自填調查表之Bundle架構(Bundle Health Self Assessment PAD)
 <div  style="padding-left: 10px;"> 
 自填調查表透過Bundle打包以下資料(相關對應表可以參照自填調查表之資料模型中的<a href="StructureDefinition-HealthSelfAssessmentModel.html">Mappings</a>)：
 <ul>

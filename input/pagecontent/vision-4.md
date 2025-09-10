@@ -1,4 +1,4 @@
-### 身體數值之Bundle架構(Bundle Applying)
+### 身體數值之Bundle架構(Bundle Body Metrics PAD)
 <div  style="padding-left: 10px;"> 
 身體數值透過Bundle打包以下資料(相關對應表可以參照身體數值之資料模型中的<a href="StructureDefinition-BodyMetricsModel.html">Mappings</a>)：
 <ul>
