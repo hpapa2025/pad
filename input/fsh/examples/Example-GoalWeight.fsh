@@ -1,7 +1,7 @@
 Instance:       goal-weight
 InstanceOf:     GoalWeightPAD
 Title:          "體重目標"
-Description:    "依據體重目標-Goal Weight PAD Profile呈現使用者的體重目標之範例。"
+Description:    "依據體重目標-Goal Weight PAD Profile呈現使用者的體重目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral

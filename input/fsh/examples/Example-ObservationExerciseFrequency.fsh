@@ -4,6 +4,7 @@ Title:          "運動頻率"
 Description:    "依據運動頻率-Observation Exercise Frequency PAD Profile呈現使用者運動頻率之範例"
 Usage: #example
 * status = #final
+* category = http://terminology.hl7.org/CodeSystem/observation-category#activity
 * code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#exerciseFrequency
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"

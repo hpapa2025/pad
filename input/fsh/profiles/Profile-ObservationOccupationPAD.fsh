@@ -6,6 +6,8 @@ Description:    "此職業-Observation Occupation PAD Profile說明PAD IG如何�
 * status = #final
 * category 1..
 * category[twcore] 1..
+* category[twcore] = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 * code.coding 1..1
+* code.coding = http://loinc.org#11341-5
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)

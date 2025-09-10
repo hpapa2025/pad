@@ -3,7 +3,6 @@ Id: DietRecord
 Title: "Mapping to DietRecordModel"
 Source: DietRecordModel
 Target: "https://www.hpa.gov.tw/pad/"
-
 * -> "BundleDiet"
 
 // 飲食紀錄
@@ -30,13 +29,3 @@ Target: "https://www.hpa.gov.tw/pad/"
 * food.foodGroupName -> "entry:NutritionIntakePAD.nutritionItem.nutritionProduct.Reference(NutritionProduct)"
 * food.alcoholIntake -> "entry:NutritionIntakePAD.nutritionItem.nutritionProduct.Reference(NutritionProduct)"
 * food.mealType -> "entry:NutritionIntakePAD.nutritionItem.nutritionProduct.Reference(NutritionProduct)"
-
-// 飲食紀錄目標
-* goalDiet -> "(飲食目標)"
-* goalDiet.goalGrains -> "entry:GoalSixFoodGroupsPAD.target.detailQuantity.value"
-* goalDiet.goalVegetable -> "entry:GoalSixFoodGroupsPAD.target.detailQuantity.value"
-* goalDiet.goalProteinFoods -> "entry:GoalSixFoodGroupsPAD.target.detailQuantity.value"
-* goalDiet.goalFruits -> "entry:GoalSixFoodGroupsPAD.target.detailQuantity.value"
-* goalDiet.goalDairy -> "entry:GoalSixFoodGroupsPAD.target.detailQuantity.value"
-* goalDiet.goalOilsAndNuts -> "entry:GoalSixFoodGroupsPAD.target.detailQuantity.value"
-* goalDiet.goalCaloriesIntake -> "entry:GoalCaloriesIntakePAD.target.detailQuantity.value"

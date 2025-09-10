@@ -1,7 +1,7 @@
 Instance:       goal-six-food-groups-fruits
 InstanceOf:     GoalSixFoodGroupsPAD
 Title:          "每日水果類食物攝取份數目標"
-Description:    "依據每日水果類食物攝取份數目標-Goal Six Food Groups PAD Profile呈現使用者的每日水果類食物攝取目標之範例。"
+Description:    "依據六大類食物飲食目標-Goal Six Food Groups PAD Profile呈現使用者的每日水果類食物攝取目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category.coding = http://terminology.hl7.org/CodeSystem/goal-category#dietary

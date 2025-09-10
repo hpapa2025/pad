@@ -1,7 +1,7 @@
 Instance:       goal-day-steps
 InstanceOf:     GoalDailyStepsPAD
 Title:          "每日步數目標"
-Description:    "依據每日步數目標-Goal Daily Steps PAD Profile呈現使用者的每日步數的目標之範例。"
+Description:    "依據每日步數目標-Goal Daily Steps PAD Profile呈現使用者的每日步數的目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral

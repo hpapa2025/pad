@@ -4,7 +4,10 @@ Id:             Observation-eating-out-frequency-pad
 Title:          "每週外食頻率-Observation Eating Out Frequency PAD"
 Description:    "此每週外食頻率-Observation Eating Out Frequency PAD Profile說明PAD IG如何進一步定義FHIR的Observation Resource以呈現每週外食頻率的詳細記錄。"
 * status = #final
+* category 1..1
+* category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 * code.coding 1..1
+* code.coding from PADMetrics
 * code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#eatingOutFrequency
 * effective[x] only dateTime
 * value[x] 1..1

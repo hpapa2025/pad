@@ -4,7 +4,10 @@ Id:             Observation-exercise-frequency-pad
 Title:          "運動頻率-Observation Exercise Frequency PAD"
 Description:    "此運動頻率-Observation Exercise Frequency PAD Profile說明PAD IG如何進一步定義FHIR的Observation Resource以呈現運動頻率的詳細記錄。"
 * status = #final
+* category 1..1
+* category = http://terminology.hl7.org/CodeSystem/observation-category#activity
 * code.coding 1..1
+* code.coding from PADMetrics
 * code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#exerciseFrequency
 * effective[x] only dateTime
 * value[x] 1..1

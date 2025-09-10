@@ -4,7 +4,7 @@ Title:          "每日步數"
 Description:    "依據每日步數-Observation Daily Steps PAD Profile呈現使用者每日步數之範例"
 Usage: #example
 * status = #final
-* category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
+* category = http://terminology.hl7.org/CodeSystem/observation-category#activity "Activity"
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
 * effectiveDateTime = "2025-08-30"

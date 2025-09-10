@@ -104,7 +104,7 @@ Usage: #definition
 * rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-daily-steps-pad"
 * rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-health-pad"
 * rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-six-food-groups-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-water-intake-pad"
+* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-daily-water-intake-pad"
 * rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-weekly-calories-burned-pad"
 * rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-weekly-exercise-amount-pad"
 * rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-weight-change-pad"

@@ -4,6 +4,8 @@ Id:             Observation-water-intake-pad
 Title:          "每次攝取水量-Observation Water Intake PAD"
 Description:    "此每次攝取水量-Observation Water Intake PAD Profile說明PAD IG如何進一步定義FHIR的Observation Resource以呈現每次攝取水量的詳細記錄。"
 * status = #final
+* category 1..1
+* category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs
 * code.coding 1..1
 * code.coding = http://snomed.info/sct#226354008
 * effective[x] 1..1

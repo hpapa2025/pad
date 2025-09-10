@@ -1,7 +1,7 @@
 Instance:       goal-day-caloriesBurned
 InstanceOf:     GoalDailyCaloriesBurnedPAD
 Title:          "每日總熱量消耗目標"
-Description:    "依據每日總熱量消耗目標-Goal Daily Calories Burned PAD Profile呈現使用者的每日消耗的熱量目標之範例。"
+Description:    "依據每日總熱量消耗目標-Goal Daily Calories Burned PAD Profile呈現使用者的每日消耗的熱量目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral

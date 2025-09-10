@@ -5,7 +5,7 @@ Description:    "依據吸菸習慣-Observation Smoking Status PAD Profile呈現
 Usage: #example
 * status = #final
 * category[twcore] = http://terminology.hl7.org/CodeSystem/observation-category#social-history "Social History"
-* code = http://loinc.org#72166-2 "Tobacco smoking status"
+* code.coding = http://loinc.org#72166-2 "Tobacco smoking status"
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
 * effectiveDateTime = "2025-08-30T14:20:00+08:00"

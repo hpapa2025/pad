@@ -1,7 +1,7 @@
 Instance:       goal-weight-loss-intensity
 InstanceOf:     GoalWeightLossIntensityPAD
 Title:          "減重強度目標"
-Description:    "依據減重強度目標-Goal Weight Loss Intensity PAD Profile呈現使用者的減重強度目標範例。"
+Description:    "依據減重強度目標-Goal Weight Loss Intensity PAD Profile呈現使用者的減重強度目標範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral

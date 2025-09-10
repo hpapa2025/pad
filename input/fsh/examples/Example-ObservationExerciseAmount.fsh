@@ -1,9 +1,10 @@
 Instance:       obs-exercise-amount
 InstanceOf:     ObservationExerciseAmountPAD
 Title:          "中高強度活動累計"
-Description:    "依據中高強度活動累計-Observation Exercise Amount PAD Profile呈現使用者的飲食偏好之範例。"
+Description:    "依據中高強度活動累計-Observation Exercise Amount PAD Profile呈現使用者的中高強度活動累計之範例"
 Usage: #example
 * status = #final
+* category = http://terminology.hl7.org/CodeSystem/observation-category#activity
 * code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#exerciseAmount
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"

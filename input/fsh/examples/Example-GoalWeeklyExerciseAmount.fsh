@@ -1,7 +1,7 @@
 Instance:       goal-week-exerciseAmount
 InstanceOf:     GoalWeeklyExerciseAmountPAD
 Title:          "每週運動量目標"
-Description:    "依據每週運動量目標-Goal Weekly Exercise Amount PAD Profile呈現使用者的每週運動量目標之範例。"
+Description:    "依據每週運動量目標-Goal Weekly Exercise Amount PAD Profile呈現使用者的每週運動量目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral

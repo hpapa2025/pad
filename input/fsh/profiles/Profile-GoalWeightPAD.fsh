@@ -24,4 +24,3 @@ Description:    "此體重目標-Goal Weight PAD Profile說明PAD IG如何進一
 * target.detailQuantity.value ^short = "設定目標值"
 * target.detailQuantity.code ^short = "單位"
 * target.detailQuantity.unit ^short = "單位"
-

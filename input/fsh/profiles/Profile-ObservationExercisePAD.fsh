@@ -1,11 +1,13 @@
-Profile:        ObservationExercise
+Profile:        ObservationExercisePAD
 Parent:         Observation
 Id:             Observation-exercise-pad
 Title:          "單次運動紀錄-Observation Exercise PAD"
 Description:    "此單次運動紀錄-Observation Exercise PAD Profile說明PAD IG如何進一步定義FHIR的Observation Resource以呈現單次運動紀錄。"
-
 * status = #final
-* code = http://loinc.org#82287-4
+* category 1..1
+* category = http://terminology.hl7.org/CodeSystem/observation-category#activity
+* code.coding 1..1
+* code.coding = http://loinc.org#82287-4
 * performer 1..1 MS
 * performer only Reference(PatientPAD)
 * subject only Reference(PatientPAD)
@@ -52,9 +54,9 @@ Description:    "此單次運動紀錄-Observation Exercise PAD Profile說明PAD
 * component[Intensity].code = PADMetricsCodes#exerciseIntensity
 * component[Intensity].value[x] only Quantity
 * component[Intensity].valueQuantity.value 1..1 MS
-* component[Intensity].valueQuantity.unit = "MET"
+* component[Intensity].valueQuantity.unit = "METs"
 * component[Intensity].valueQuantity.system = "http://unitsofmeasure.org"
-* component[Intensity].valueQuantity.code = #MET
+* component[Intensity].valueQuantity.code = #[MET]
 
 * component[Source] ^short = "運動紀錄來源"
 * component[Source].code = PADMetricsCodes#exerciseRecordSource

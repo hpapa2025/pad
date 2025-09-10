@@ -1,7 +1,7 @@
 Instance:       goal-six-food-groups-grains
 InstanceOf:     GoalSixFoodGroupsPAD
 Title:          "每日全穀雜糧類食物攝取份數目標"
-Description:    "依據每日全穀雜糧類食物攝取份數目標-Goal Six Food Groups PAD Profile呈現使用者的每日全穀雜糧類食物攝取目標之範例。"
+Description:    "依據六大類食物飲食目標-Goal Six Food Groups PAD Profile呈現使用者的每日全穀雜糧類食物攝取目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category.coding = http://terminology.hl7.org/CodeSystem/goal-category#dietary

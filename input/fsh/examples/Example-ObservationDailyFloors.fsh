@@ -4,7 +4,7 @@ Title:          "每日爬升樓層"
 Description:    "依據每日爬升樓層-Observation Daily Floors PAD Profile呈現使用者每日爬升樓層之範例"
 Usage: #example
 * status = #final
-* category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
+* category = http://terminology.hl7.org/CodeSystem/observation-category#activity "Activity"
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
 * effectiveDateTime = "2025-08-30"

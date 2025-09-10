@@ -3,9 +3,11 @@ Parent:         Observation
 Id:             Observation-stress-index-pad
 Title:          "壓力指數-Observation Stress Index PAD"
 Description:    "此壓力指數-Observation Stress Index PAD Profile說明PAD IG如何進一步定義FHIR的Observation Resource以呈現壓力指數的詳細記錄。"
-* status = #final
+* status 1..1
+* category 1..1
+* category = http://terminology.hl7.org/CodeSystem/observation-category#activity
 * code.coding 1..1
-* code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#stressIndex
+* code.coding = http://loinc.org#93038-8
 * effective[x] 1..1
 * effective[x] only dateTime
 * value[x] 1..1

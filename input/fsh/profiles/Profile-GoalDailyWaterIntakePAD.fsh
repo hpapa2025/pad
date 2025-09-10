@@ -1,8 +1,8 @@
-Profile:        GoalWaterIntakePAD
+Profile:        GoalDailyWaterIntakePAD
 Parent:         TWCoreGoal
-Id:             Goal-water-intake-pad
-Title:          "每日飲水量目標-Goal Water Intake PAD"
-Description:    "此每日飲水量目標-Goal Water Intake PAD Profile說明PAD IG如何進一步定義臺灣核心-目標（TW Core Goa）Profile以呈現使用者設定每日攝取水量的健康飲食目標。"
+Id:             Goal-daily-water-intake-pad
+Title:          "每日飲水量目標-Goal Daily Water Intake PAD"
+Description:    "此每日飲水量目標-Goal Daily Water Intake PAD Profile說明PAD IG如何進一步定義臺灣核心-目標（TW Core Goa）Profile以呈現使用者設定每日攝取水量的健康飲食目標。"
 * lifecycleStatus = #active
 * category 1..1
 * category = http://terminology.hl7.org/CodeSystem/goal-category#dietary

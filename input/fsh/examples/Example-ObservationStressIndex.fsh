@@ -1,10 +1,11 @@
 Instance:       obs-stress-index
 InstanceOf:     ObservationStressIndexPAD
 Title:          "壓力指數"
-Description:    "依據壓力指數-Observation Stress Index PAD Profile呈現使用者靜態/久坐時間之範例"
+Description:    "依據壓力指數-Observation Stress Index PAD Profile呈現使用者壓力指數之範例"
 Usage: #example
 * status = #final
-* code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#stressIndex
+* category = http://terminology.hl7.org/CodeSystem/observation-category#activity "Activity"
+* code.coding = http://loinc.org#93038-8
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
 * effectiveDateTime = "2025-08-30"

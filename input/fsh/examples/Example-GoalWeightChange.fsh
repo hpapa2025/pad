@@ -1,7 +1,7 @@
 Instance:       goal-weight-change
 InstanceOf:     GoalWeightChangePAD
 Title:          "每週增/減重目標"
-Description:    "依據每週增/減重目標-Goal Weight Change PAD Profile呈現使用者的每週增/減重目標之範例。"
+Description:    "依據每週增/減重目標-Goal Weight Change PAD Profile呈現使用者的每週增/減重目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral

@@ -1,7 +1,7 @@
 Instance:       goal-health
 InstanceOf:     GoalHealthPAD
 Title:          "健康目標"
-Description:    "依據健康目標-Goal Health PAD Profile呈現使用者使用全齡健康平台的目標之範例。"
+Description:    "依據健康目標-Goal Health PAD Profile呈現使用者使用全齡健康平台的目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral

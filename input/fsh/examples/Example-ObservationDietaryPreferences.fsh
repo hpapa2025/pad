@@ -1,9 +1,10 @@
 Instance:       obs-diet-prefs
 InstanceOf:     ObservationDietaryPreferencesPAD
 Title:          "飲食偏好"
-Description:    "依據飲食偏好-Observation Dietary Preferences PAD Profile呈現使用者的飲食偏好之範例。"
+Description:    "依據飲食偏好-Observation Dietary Preferences PAD Profile呈現使用者的飲食偏好之範例"
 Usage: #example
 * status = #final
+* category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 * code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#dietaryPreferences
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"

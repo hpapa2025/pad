@@ -1,7 +1,7 @@
 Instance:       goal-week-caloriesBurned
 InstanceOf:     GoalWeeklyCaloriesBurnedPAD
 Title:          "每週卡路里消耗目標"
-Description:    "依據每週卡路里消耗目標-Goal Weekly Calories Burned PAD Profile呈現使用者的每週卡路里消耗目標之範例。"
+Description:    "依據每週卡路里消耗目標-Goal Weekly Calories Burned PAD Profile呈現使用者的每週卡路里消耗目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral

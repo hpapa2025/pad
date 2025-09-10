@@ -4,8 +4,9 @@ Id:             Observation-smokingStatus-pad
 Title:          "吸菸習慣-Observation Smoking Status PAD"
 Description:    "此吸菸習慣-Observation Smoking Status PAD Profile說明PAD IG如何進一步定義臺灣核心-吸菸狀態（TW Core Observation Smoking Status） Profile以呈現使用者之吸菸習慣紀錄。"
 * status = #final
+* category[twcore] 1..1
+* category[twcore] = http://terminology.hl7.org/CodeSystem/observation-category#social-history
 * code.coding 1..1
-* code.coding.code 1..1
 * code.coding = http://loinc.org#72166-2
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)

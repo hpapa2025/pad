@@ -1,7 +1,7 @@
 Instance:       goal-day-distance
 InstanceOf:     GoalDailyDistancePAD
 Title:          "每日運動距離目標"
-Description:    "依據每日運動距離目標-Goal Daily Distance PAD Profile呈現使用者的每日運動距離的目標之範例。"
+Description:    "依據每日運動距離目標-Goal Daily Distance PAD Profile呈現使用者的每日運動距離的目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral

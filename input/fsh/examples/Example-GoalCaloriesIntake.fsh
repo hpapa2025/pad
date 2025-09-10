@@ -1,7 +1,7 @@
 Instance:       goal-day-caloriesIntake
 InstanceOf:     GoalCaloriesIntakePAD
 Title:          "每日熱量攝取目標"
-Description:    "依據每日熱量攝取目標-Goal Calories Intake PAD Profile呈現使用者的每日熱量攝取目標之範例。"
+Description:    "依據每日熱量攝取目標-Goal Calories Intake PAD Profile呈現使用者的每日熱量攝取目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * subject.reference = "Patient/pat-min"

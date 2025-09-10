@@ -5,10 +5,10 @@ Description:    "依據每日總消耗熱量-Observation TDEE PAD Profile呈現T
 Usage: #example
 * status = #final
 * category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
+* code.coding = http://loinc.org#41979-6 "Calories burned in 24 hour Calculated"
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
 * effectiveDateTime = "2025-08-30"
-* code.coding = http://loinc.org#41979-6 "Calories burned in 24 hour Calculated"
 * valueQuantity.value = 2538
 * valueQuantity.unit = "kcal/d"
 * valueQuantity.system = "http://unitsofmeasure.org"

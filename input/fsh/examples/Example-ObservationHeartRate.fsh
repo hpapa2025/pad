@@ -1,7 +1,7 @@
 Instance:       obs-heart-rate
 InstanceOf:     ObservationHeartRatePAD
 Title:          "心率"
-Description:    "依據心率-Observation Heart Rate PAD Profile呈現臀圍之範例"
+Description:    "依據心率-Observation Heart Rate PAD Profile呈現心率之範例"
 Usage: #example
 * status = #final
 * category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
