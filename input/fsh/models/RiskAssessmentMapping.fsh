@@ -18,19 +18,13 @@ Target: "https://www.hpa.gov.tw/pad/"
 
 // 健康風險評估
 * healthRisk -> "(健康風險評估)"
-* healthRisk.familyChronicHistory -> "entry:FamilyMemberHistoryPAD.condition.code"
-* healthRisk.cancer -> "entry:ConditionCancerPAD.code"
-* healthRisk.cardioVascularDisease -> "entry:ConditionCardiovascularDiseasePAD.code"
 * healthRisk.diabetesMellitus -> "entry:ConditionDiabetesMellitusPAD.code"
 * healthRisk.highBloodPressure -> "entry:ConditionHighBloodPressurePAD.code"
-* healthRisk.hyperlipidemia -> "entry:ConditionHyperlipidemiaPAD.code"
-* healthRisk.chronicDiseases -> "entry:ConditionChronicDiseasesPAD.code"
 * healthRisk.smokingHabit -> "entry:ObservationSmokingStatusPAD.where(code.coding.code='72166-2' and code.coding.system='http://loinc.org').valueCodeableConcept.coding.code"
 
 // 身體數值
 * bodyMetrics -> "(身體數值)"
 * bodyMetrics.sbp -> "entry:ObservationBloodPressurePAD.where(code.coding.code = '8480-6' and code.coding.system='http://loinc.org').component[SystolicBP].valueQuantity.value"
-* bodyMetrics.dbp -> "entry:ObservationBloodPressurePAD.where(code.coding.code = '8462-4' and code.coding.system='http://loinc.org').component[DiastolicBP].valueQuantity.value"
 * bodyMetrics.chol -> "entry:ObservationCholesterolPAD.where(code.coding.code = '2093-3' and code.coding.system='http://loinc.org').valueQuantity.value"
 * bodyMetrics.hdl -> "entry:ObservationCholesterolPAD.where(code.coding.code = '2085-9' and code.coding.system='http://loinc.org').component[HDL].valueQuantity.value"
 * bodyMetrics.ldl -> "entry:ObservationCholesterolPAD.where(code.coding.code = '2089-1' and code.coding.system='http://loinc.org').component[LDL].valueQuantity.value"

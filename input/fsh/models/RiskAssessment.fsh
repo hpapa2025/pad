@@ -19,20 +19,13 @@ Description: """
 
 // 健康風險評估
 * healthRisk 1..1 BackboneElement "健康風險評估"
-* healthRisk.familyChronicHistory 0..1 code "慢性疾病家族史"
-* healthRisk.cancer 0..1 code "癌症"
-* healthRisk.cardioVascularDisease 0..1 code "心血管疾病"
 * healthRisk.diabetesMellitus 0..1 code "糖尿病"
 * healthRisk.highBloodPressure 0..1 code "高血壓"
-* healthRisk.hyperlipidemia 0..1 code "高血脂"
-* healthRisk.chronicDiseases 0..1 code "其他慢性病"
 * healthRisk.smokingHabit 1..1 CodeableConcept "吸菸習慣"
-
 
 // 身體數值
 * bodyMetrics 1..1 BackboneElement "身體數值"
 * bodyMetrics.sbp 1..1 integer "收縮壓"
-* bodyMetrics.dbp 1..1 integer "舒張壓"
 * bodyMetrics.chol 1..1 integer "總膽固醇"
 * bodyMetrics.hdl 1..1 integer "高密度膽固醇"
 * bodyMetrics.ldl 1..1 integer "低密度膽固醇"

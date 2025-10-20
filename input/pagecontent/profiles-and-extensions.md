@@ -6,6 +6,9 @@
  - [運動紀錄-Bundle Physical Activity PAD](StructureDefinition-Bundle-physical-activity-pad.html)
  - [飲食紀錄-Bundle Diet Record PAD](StructureDefinition-Bundle-diet-record-pad.html)
  - [身體數值-Bundle Body Metrics PAD](StructureDefinition-Bundle-body-metrics-pad.html)
+ - [飲水紀錄-Bundle Water Intake PAD](StructureDefinition-Bundle-water-intake-pad.html)
+ - [健康風險評估-Bundle Health Risk Assessment PAD](StructureDefinition-Bundle-health-risk-assessment-pad.html)
+ - [目標管理-Bundle Health Risk Assessment PAD](StructureDefinition-Bundle-goal-management-pad.html)
 
 #### Condition
  - [癌症-Condition Cancer PAD](StructureDefinition-Condition-cancer-pad.html)
@@ -69,5 +72,9 @@
 
 ### Extensions
  以下[Extensions](http://hl7.org/fhir/R4/extensibility.html)已定義為身體活動與飲食實作指引(PAD IG)的一部分。
- - [NutritionIntakeIdentifier](StructureDefinition-extension-nutritionIntake-identifier.html)
- - [NutritionIntakeNote](StructureDefinition-extension-nutritionIntake-note.html)
+ - [MealType](StructureDefinition-extension-meal-type.html)
+ - [NutritionIntakeAmount](StructureDefinition-extension-nutritionintake-amount.html)
+ - [NutritionProductCharacteristic](StructureDefinition-extension-nutritionproduct-characteristic.html)
+ - [NutritionProductCode](StructureDefinition-extension-nutritionproduct-code.html)
+ - [NutritionProductEnergy](StructureDefinition-extension-nutritionproduct-energy.html)
+ - [NutritionProductNutrient](StructureDefinition-extension-nutritionproduct-nutrient.html)

@@ -8,4 +8,5 @@ Description: """
 
 // 飲水紀錄
 * waterRecord 1..1 BackboneElement "飲水紀錄"
-* waterRecord.waterIntake 0..1 integer "每次攝取水量"
+* waterRecord.waterIntakeDateTime 1..1 dateTime "每次攝取時間/日期"
+* waterRecord.waterIntake 1..1 integer "每次攝取水量"

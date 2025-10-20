@@ -7,4 +7,5 @@ Target: "https://www.hpa.gov.tw/pad/"
 
 // 飲水紀錄
 * waterRecord -> "飲水紀錄"
+* waterRecord.waterIntakeDateTime -> "entry:ObservationWaterIntakePAD.effectiveDateTime"
 * waterRecord.waterIntake -> "entry:ObservationWaterIntakePAD.where(code.coding.code = '226354008' and code.coding.system='http://snomed.info/sct').valueQuantity.value"
