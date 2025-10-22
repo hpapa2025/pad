@@ -22,7 +22,7 @@ Description:    "SCT-身體活動與飲食目標描述值集"
 * $SCT#789392006 "Estimated oral intake of liquid dairy product in 24 hours"
 /* 油脂與堅果種子 */
 * $SCT#1003948007 "Estimated required quantity of fat and oil in 24 hours"
-* $SCT#230034002 "Nuts and seeds"
+//* $SCT#230034002 "Nuts and seeds"
 /* 熱量攝取 */
 * $SCT#860729008 "Estimated quantity of intake of energy in 24 hours"
 /* 運動量(時間) */

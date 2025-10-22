@@ -1,7 +1,7 @@
 Instance:       obs-occupation
 InstanceOf:     ObservationOccupationPAD
 Title:          "職業"
-Description:    "依據職業-Observation Occupation PADProfile呈現使用者職業之範例"
+Description:    "依據職業-Observation Occupation PADProfile呈現職業之範例"
 Usage: #example
 * status = #final
 * category[twcore] = http://terminology.hl7.org/CodeSystem/observation-category#social-history "Social History"

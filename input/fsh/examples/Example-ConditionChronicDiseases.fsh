@@ -1,7 +1,7 @@
-Instance:     con-cd
-InstanceOf:   ConditionChronicDiseasesPAD
-Title:        "其他慢性病"
-Description:  "依據其他慢性病-Condition Chronic Disease PAD Profile呈現其他慢性病之範例"
+Instance:       con-cd
+InstanceOf:     ConditionChronicDiseasesPAD
+Title:          "其他慢性病"
+Description:    "依據其他慢性病-Condition Chronic Disease PAD Profile呈現其他慢性病之範例"
 Usage: #example
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active
 * code.coding[icd10-cm-2023] = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-cm-2023-tw#A18.7

@@ -1,7 +1,7 @@
 Instance:       obs-eat-out
 InstanceOf:     ObservationEatingOutFrequencyPAD
 Title:          "每週外食頻率"
-Description:    "依據每週外食頻率-Observation Eating Out Frequency PAD Profile呈現使用者的每週外食頻率之範例"
+Description:    "依據每週外食頻率-Observation Eating Out Frequency PAD Profile呈現每週外食頻率之範例"
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#social-history

@@ -6,8 +6,10 @@ Description:    "此每日步數目標-Goal Daily Steps PAD Profile說明PAD IG�
 * lifecycleStatus = #active
 * category 1..1
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral
-* description.coding from PADMetrics (extensible)
 * description ^short = "設定每日步數的目標"
+* description.coding 1..1
+* description.coding from PADMetrics (extensible)
+* description.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#steps
 * subject only Reference(PatientPAD)
 
 * start[x] 1..1 
@@ -15,8 +17,8 @@ Description:    "此每日步數目標-Goal Daily Steps PAD Profile說明PAD IG�
 * start[x] ^short = "設定此目標的日期"
 
 * target.measure 1..1
-* target.measure ^short = "身體活動目標項目"
-* target.measure.coding from HealthActivity
+* target.measure ^short = "每日步數"
+* target.measure = $LOINC#41950-7
 
 * target.detail[x] 1..1
 * target.detail[x] only Quantity

@@ -1,7 +1,7 @@
 Instance:       goal-day-floors
 InstanceOf:     GoalDailyFloorsPAD
 Title:          "每日爬升樓層目標"
-Description:    "依據每日爬升樓層目標-Goal Daily Floors PAD Profile呈現使用者的每日爬升樓層的目標之範例"
+Description:    "依據每日爬升樓層目標-Goal Daily Floors PAD Profile呈現每日爬升樓層目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral
@@ -10,7 +10,7 @@ Usage: #example
 
 * startDate = "2025-08-30"
 
-* target.measure.coding = $SCT#129016000 "Climbing stairs"
+* target.measure = $SCT#129016000 "Climbing stairs"
 
 * target[0].detailQuantity.value = 6
 * target[0].detailQuantity.unit = "樓"

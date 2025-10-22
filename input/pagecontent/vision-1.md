@@ -22,6 +22,7 @@
 	<li>高血脂-Condition Hyperlipidemia PAD</li>
 	<li>其他慢性病-Condition Chronic Disease PAD</li>
 	<li>慢性疾病家族史-FamilyMemberHistory PAD</li>
+	<li>健康目標-Goal Health PAD</li>
 </ul>
 </div>
 

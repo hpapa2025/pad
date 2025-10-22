@@ -1,7 +1,7 @@
-Instance:       goal-week-caloriesBurned
+Instance:       goal-week-calories-burned
 InstanceOf:     GoalWeeklyCaloriesBurnedPAD
 Title:          "每週卡路里消耗目標"
-Description:    "依據每週卡路里消耗目標-Goal Weekly Calories Burned PAD Profile呈現使用者的每週卡路里消耗目標之範例"
+Description:    "依據每週卡路里消耗目標-Goal Weekly Calories Burned PAD Profile呈現每週卡路里消耗目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral
@@ -10,7 +10,7 @@ Usage: #example
 
 * startDate = "2025-08-30"
 
-* target.measure.coding = $LOINC#41980-4 "Calories burned in 1 week Calculated"
+* target.measure = $LOINC#41980-4 "Calories burned in 1 week Calculated"
 
 * target[0].detailQuantity.value = 1800
 * target[0].detailQuantity.unit = "kcal"

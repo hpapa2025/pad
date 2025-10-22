@@ -6,8 +6,9 @@ Description:    "此每日飲水量目標-Goal Daily Water Intake PAD Profile說
 * lifecycleStatus = #active
 * category 1..1
 * category = http://terminology.hl7.org/CodeSystem/goal-category#dietary
-* description.coding from GoalDescription (extensible)
 * description ^short = "設定每日攝取的水量目標"
+* description.coding 1..1
+* description.coding = $SCT#226278001
 * subject only Reference(PatientPAD)
 
 * start[x] 1..1 
@@ -15,12 +16,12 @@ Description:    "此每日飲水量目標-Goal Daily Water Intake PAD Profile說
 * start[x] ^short = "設定此目標的日期"
 
 * target.measure 1..1
-* target.measure ^short = "健康活動目標項目"
-* target.measure.coding from HealthActivity
+* target.measure ^short = "飲水量"
+* target.measure = $LOINC#105999-7
 
 * target.detail[x] 1..1
 * target.detail[x] only Quantity
-* target.detailQuantity ^short = "飲水量目標"
+* target.detailQuantity ^short = "飲水量目標毫升數"
 * target.detailQuantity.value ^short = "設定目標值"
 * target.detailQuantity.code ^short = "單位"
 * target.detailQuantity.unit ^short = "單位"

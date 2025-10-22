@@ -2,12 +2,13 @@ Profile:        GoalWeeklyCaloriesBurnedPAD
 Parent:         TWCoreGoal
 Id:             Goal-weekly-calories-burned-pad
 Title:          "每週卡路里消耗目標-Goal Weekly Calories Burned PAD"
-Description:    "此每週卡路里消耗目標-Goal Weekly Calories Burned PAD Profile說明PAD IG如何進一步定義臺灣核心-目標（TW Core Goa）Profile以呈現使用者每週的身體活動目標。"
+Description:    "此每週卡路里消耗目標-Goal Weekly Calories Burned PAD Profile說明PAD IG如何進一步定義臺灣核心-目標（TW Core Goa）Profile以呈現每週的卡路里消耗目標。"
 * lifecycleStatus = #active
 * category 1..1
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral
-* description.coding from GoalDescription (extensible)
 * description ^short = "設定每週卡路里消耗的目標"
+* description.coding 1..1
+* description.coding = $SCT#258790008
 * subject only Reference(PatientPAD)
 
 * start[x] 1..1  
@@ -15,12 +16,12 @@ Description:    "此每週卡路里消耗目標-Goal Weekly Calories Burned PAD 
 * start[x] ^short = "設定此目標的日期"
 
 * target.measure 1..1
-* target.measure ^short = "身體活動目標項目"
-* target.measure.coding from HealthActivity
+* target.measure ^short = "每週卡路里消耗"
+* target.measure = $LOINC#41980-4
 
 * target.detail[x] 1..1
 * target.detail[x] only Quantity
-* target.detailQuantity ^short = "每週卡路里消耗目標"
+* target.detailQuantity ^short = "每週卡路里數消耗目標"
 * target.detailQuantity.value ^short = "設定目標值"
 * target.detailQuantity.code ^short = "單位"
 * target.detailQuantity.unit ^short = "單位"

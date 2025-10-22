@@ -1,16 +1,16 @@
 Instance:       goal-health
 InstanceOf:     GoalHealthPAD
 Title:          "健康目標"
-Description:    "依據健康目標-Goal Health PAD Profile呈現使用者使用全齡健康平台的目標之範例"
+Description:    "依據健康目標-Goal Health PAD Profile呈現使用者使用全齡健康平台目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral
-* description = $SCT#703039001 "Health objective"
+* description.coding = $SCT#703039001 "Health objective"
 * subject.reference = "Patient/pat-min"
 
 * startDate = "2025-08-30"
 
-* target.measure.coding = $LOINC#87528-6 "Personal health goal"
+* target.measure = $LOINC#87528-6 "Personal health goal"
 
 * target[0].detailCodeableConcept.coding = https://www.hpa.gov.tw/pad/CodeSystem/health-goals#balancedDiet "輔助達成均衡飲食"
 

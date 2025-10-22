@@ -1,16 +1,16 @@
 Instance:       goal-weight-loss-intensity
 InstanceOf:     GoalWeightLossIntensityPAD
 Title:          "減重強度目標"
-Description:    "依據減重強度目標-Goal Weight Loss Intensity PAD Profile呈現使用者的減重強度目標範例"
+Description:    "依據減重強度目標-Goal Weight Loss Intensity PAD Profile呈現減重強度目標範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral
-* description = $SCT#248114003 "Actions to lose weight"
+* description.coding = $SCT#248114003 "Actions to lose weight"
 * subject.reference = "Patient/pat-min"
 
 * startDate = "2025-08-30"
 
-* target.measure.coding = $SCT#248114003 "Actions to lose weight"
+* target.measure = $SCT#248114003 "Actions to lose weight"
 
 * target[0].detailCodeableConcept.coding = https://www.hpa.gov.tw/pad/CodeSystem/weight-loss-intensity#low "低"
 

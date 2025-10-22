@@ -1,7 +1,7 @@
 Instance:       obs-exercise-freq
 InstanceOf:     ObservationExerciseFrequencyPAD
 Title:          "運動頻率"
-Description:    "依據運動頻率-Observation Exercise Frequency PAD Profile呈現使用者運動頻率之範例"
+Description:    "依據運動頻率-Observation Exercise Frequency PAD Profile呈現運動頻率之範例"
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity

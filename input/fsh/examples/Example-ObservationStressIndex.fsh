@@ -1,7 +1,7 @@
 Instance:       obs-stress-index
 InstanceOf:     ObservationStressIndexPAD
 Title:          "壓力指數"
-Description:    "依據壓力指數-Observation Stress Index PAD Profile呈現使用者壓力指數之範例"
+Description:    "依據壓力指數-Observation Stress Index PAD Profile呈現壓力指數之範例"
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity "Activity"

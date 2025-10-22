@@ -4,19 +4,19 @@ Id:             Bundle-physical-activity-pad
 Title:          "運動紀錄-Bundle Physical Activity PAD"
 Description:    "此運動紀錄-Bundle Physical Activity PAD Profile說明本IG如何進一步定義資料交換基本單位(TW Core Bundle) Profile以呈現運動紀錄之內容"
 * type = #transaction
-* entry 1..* MS
+* entry 0..* MS
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #closed
 * entry contains
-	observation-steps 1..1 MS and
-	observation-floors 1..1 MS and
-	observation-distance 1..1 MS and
-	observation-heart-rate 1..1 MS and
-	observation-sleep-hours 1..1 MS and
-	observation-stress 1..1 MS and
-	observation-stand 1..1 MS and
-	observation-exercise 1..1 MS
+	observation-steps 0..* MS and
+	observation-floors 0..* MS and
+	observation-distance 0..* MS and
+	observation-heart-rate 0..* MS and
+	observation-sleep-hours 0..1 MS and
+	observation-stress 0..1 MS and
+	observation-stand 0..* MS and
+	observation-exercise 0..* MS
 	
 * entry[observation-steps] ^short = "每日步數"
 * entry[observation-steps].resource 1..1 MS

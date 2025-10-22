@@ -1,7 +1,7 @@
 Instance:       goal-day-steps
 InstanceOf:     GoalDailyStepsPAD
 Title:          "每日步數目標"
-Description:    "依據每日步數目標-Goal Daily Steps PAD Profile呈現使用者的每日步數的目標之範例"
+Description:    "依據每日步數目標-Goal Daily Steps PAD Profile呈現每日步數目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral
@@ -10,7 +10,7 @@ Usage: #example
 
 * startDate = "2025-08-30"
 
-* target.measure.coding = $LOINC#41950-7 "Number of steps in 24 hour Measured"
+* target.measure = $LOINC#41950-7 "Number of steps in 24 hour Measured"
 
 * target[0].detailQuantity.value = 7500
 * target[0].detailQuantity.unit = "步"

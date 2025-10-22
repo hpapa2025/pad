@@ -6,8 +6,9 @@ Description:    "此每日熱量攝取目標-Goal Calories Intake PAD Profile說
 * lifecycleStatus = #active
 * category 1..1
 * category = http://terminology.hl7.org/CodeSystem/goal-category#dietary
-* description.coding from GoalDescription (extensible)
 * description ^short = "設定每日攝取的熱量目標"
+* description.coding 1..1
+* description.coding = $SCT#860729008
 * subject only Reference(PatientPAD)
 
 * start[x] 1..1 
@@ -15,12 +16,12 @@ Description:    "此每日熱量攝取目標-Goal Calories Intake PAD Profile說
 * start[x] ^short = "設定此目標的日期"
 
 * target.measure 1..1
-* target.measure ^short = "健康活動目標項目"
-* target.measure.coding from HealthActivity
+* target.measure ^short = "每日熱量攝取"
+* target.measure = $LOINC#75298-0
 
 * target.detail[x] 1..1
 * target.detail[x] only Quantity
-* target.detailQuantity ^short = "每日熱量攝取目標"
+* target.detailQuantity ^short = "每日熱量攝取目卡路里數"
 * target.detailQuantity.value ^short = "設定目標值"
 * target.detailQuantity.code ^short = "單位"
 * target.detailQuantity.unit ^short = "單位"

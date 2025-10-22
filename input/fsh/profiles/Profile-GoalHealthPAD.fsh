@@ -6,8 +6,9 @@ Description:    "此健康目標-Goal Health PAD Profile說明PAD IG如何進一
 * lifecycleStatus = #active
 * category 1..1
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral
-* description.coding from GoalDescription (extensible)
 * description ^short = "設定使用者使用全齡健康平台的健康目標"
+* description.coding 1..1
+* description.coding = $SCT#703039001
 * subject only Reference(PatientPAD)
 
 * start[x] 1..1 
@@ -15,8 +16,7 @@ Description:    "此健康目標-Goal Health PAD Profile說明PAD IG如何進一
 * start[x] ^short = "設定此目標的日期"
 
 * target.measure 1..1
-* target.measure ^short = "健康活動目標項目"
-* target.measure.coding from HealthActivity
+* target.measure = $LOINC#87528-6
 
 * target.detail[x] 1..1
 * target.detail[x] only CodeableConcept

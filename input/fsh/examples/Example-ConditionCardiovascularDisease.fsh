@@ -1,7 +1,7 @@
-Instance:     con-cvd
-InstanceOf:   ConditionCardiovascularDiseasePAD
-Title:        "心血管疾病"
-Description:  "依據心血管疾病-Condition Cardiovascular Disease PAD Profile呈現心血管疾病之範例"
+Instance:       con-cvd
+InstanceOf:     ConditionCardiovascularDiseasePAD
+Title:          "心血管疾病"
+Description:    "依據心血管疾病-Condition Cardiovascular Disease PAD Profile呈現心血管疾病之範例"
 Usage: #example
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active
 * code.coding[icd10-cm-2023] = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-cm-2023-tw#I20.9

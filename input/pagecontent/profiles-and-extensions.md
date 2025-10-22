@@ -9,6 +9,10 @@
  - [飲水紀錄-Bundle Water Intake PAD](StructureDefinition-Bundle-water-intake-pad.html)
  - [健康風險評估-Bundle Health Risk Assessment PAD](StructureDefinition-Bundle-health-risk-assessment-pad.html)
  - [目標管理-Bundle Health Risk Assessment PAD](StructureDefinition-Bundle-goal-management-pad.html)
+ - [飲食紀錄-Basic Diet Record PAD](StructureDefinition-Basic-diet-record-pad.html)
+
+#### Basic
+ - [飲食紀錄-Basic Diet Record PAD](StructureDefinition-Basic-diet-record-pad.html)
 
 #### Condition
  - [癌症-Condition Cancer PAD](StructureDefinition-Condition-cancer-pad.html)
@@ -29,7 +33,12 @@
  - [每日運動距離目標-Goal Daily Distance PAD](StructureDefinition-Goal-daily-distance-pad.html)
  - [每日爬升樓層目標-Goal Daily Floors PAD](StructureDefinition-Goal-daily-floors-pad.html)
  - [每日步數目標-Goal Daily Steps PAD](StructureDefinition-Goal-daily-steps-pad.html)
- - [六大類食物飲食目標-Goal Six Food Groups PAD](StructureDefinition-Goal-six-food-groups-pad.html)
+ - [每日乳品類食物攝取份數目標-Goal Six Food Groups Dairy PAD](StructureDefinition-Goal-six-food-groups-dairy-pad.html)
+ - [每日水果類食物攝取份數目標-Goal Six Food Groups Fruits PAD](StructureDefinition-Goal-six-food-groups-fruits-pad.html)
+ - [每日全穀雜糧類食物攝取份數目標-Goal Six Food Groups Grains PAD](StructureDefinition-Goal-six-food-groups-grains-pad.html)
+ - [每日油脂與堅果種子類食物攝取份數目標-Goal Six Food Groups Oils and Nuts PAD](StructureDefinition-Goal-six-food-groups-oilsAndNuts-pad.html)
+ - [每日豆魚肉蛋類食物攝取份數目標-Goal Six Food Groups Protein Foods PAD](StructureDefinition-Goal-six-food-groups-proteinFoods-pad.html)
+ - [每日蔬菜類食物攝取份數目標-Goal Six Food Groups Vegetables PAD](StructureDefinition-Goal-six-food-groups-vegetables-pad.html)
  - [每日熱量攝取目標-Goal Calories Intake PAD](StructureDefinition-Goal-calories-intake-pad.html)
  - [每日飲水量目標-Goal Water Intake PAD](StructureDefinition-Goal-daily-water-intake-pad.html)
  - [體重目標-Goal Weight PAD](StructureDefinition-Goal-weight-pad.html)

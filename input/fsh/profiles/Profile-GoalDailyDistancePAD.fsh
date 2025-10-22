@@ -6,8 +6,9 @@ Description:    "此每日運動距離目標-Goal Daily Distance PAD Profile說�
 * lifecycleStatus = #active
 * category 1..1
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral
-* description.coding from GoalDescription (extensible)
 * description ^short = "設定每日運動距離的目標"
+* description.coding 1..1
+* description.coding = $SCT#246132006 "Distance"
 * subject only Reference(PatientPAD)
 
 * start[x] 1..1 
@@ -15,12 +16,12 @@ Description:    "此每日運動距離目標-Goal Daily Distance PAD Profile說�
 * start[x] ^short = "設定此目標的日期"
 
 * target.measure 1..1
-* target.measure ^short = "身體活動目標項目"
-* target.measure.coding from HealthActivity
+* target.measure ^short = "每日運動距離"
+* target.measure = $LOINC#93849-8
 
 * target.detail[x] 1..1
 * target.detail[x] only Quantity
-* target.detailQuantity ^short = "每日運動距離目標"
+* target.detailQuantity ^short = "每日運動距離目標公里數"
 * target.detailQuantity.value ^short = "設定目標值"
 * target.detailQuantity.code ^short = "單位"
 * target.detailQuantity.unit ^short = "單位"

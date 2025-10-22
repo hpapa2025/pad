@@ -1,11 +1,13 @@
-Instance:       goal-day-caloriesIntake
+Instance:       goal-day-calories-intake
 InstanceOf:     GoalCaloriesIntakePAD
 Title:          "每日熱量攝取目標"
-Description:    "依據每日熱量攝取目標-Goal Calories Intake PAD Profile呈現使用者的每日熱量攝取目標之範例"
+Description:    "依據每日熱量攝取目標-Goal Calories Intake PAD Profile呈現每日熱量攝取目標之範例"
 Usage: #example
 * lifecycleStatus = #active
+* category = http://terminology.hl7.org/CodeSystem/goal-category#dietary
+* description.coding = $SCT#860729008 "Estimated quantity of intake of energy in 24 hours"
 * subject.reference = "Patient/pat-min"
-* description = $SCT#860729008 "Estimated quantity of intake of energy in 24 hours"
+
 * startDate = "2025-08-30"
 
 * target.measure = $LOINC#75298-0 "Calorie intake 24 hour Estimated"

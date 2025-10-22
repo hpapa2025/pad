@@ -10,7 +10,7 @@
 ### Bundle架構圖
 
 <div  style="padding-left: 10px;"> 
-    <!-- <img class="figure-img img-responsive img-rounded center-block" src="context_3.png" alt="情境3" style="display: block;margin-left: auto;margin-right: auto;width: 100%;"/> -->
+    <img class="figure-img img-responsive img-rounded center-block" src="context_3.png" alt="情境3" style="display: block;margin-left: auto;margin-right: auto;width: 100%;"/>
 </div>
 
 ### 圖例說明圖

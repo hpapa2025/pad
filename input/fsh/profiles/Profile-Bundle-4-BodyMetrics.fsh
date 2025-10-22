@@ -4,24 +4,24 @@ Id:             Bundle-body-metrics-pad
 Title:          "身體數值-Bundle Body Metrics PAD"
 Description:    "此身體數值-Bundle Body Metrics PAD Profile說明本IG如何進一步定義資料交換基本單位(TW Core Bundle) Profile以呈現身體數值之內容"
 * type = #transaction
-* entry 1..* MS
+* entry 0..* MS
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #closed
 * entry contains
-	observation-height 1..1 MS and
-	observation-weight 1..1 MS and
-	observation-bmi 1..1 MS and
-	observation-blood-pressure 1..1 MS and
-	observation-chol 1..1 MS and
-	observation-tg 1..1 MS and
-	observation-fg 1..1 MS and
-	observation-waist 1..1 MS and
-	observation-hip 1..1 MS and
-	observation-bri 1..1 MS and
-	observation-bfp 1..1 MS and
-	observation-tdee 1..1 MS and
-	observation-bmr 1..1 MS
+	observation-height 0..1 MS and
+	observation-weight 0..1 MS and
+	observation-bmi 0..1 MS and
+	observation-blood-pressure 0..1 MS and
+	observation-chol 0..1 MS and
+	observation-tg 0..1 MS and
+	observation-fg 0..1 MS and
+	observation-waist 0..1 MS and
+	observation-hip 0..1 MS and
+	observation-bri 0..1 MS and
+	observation-bfp 0..1 MS and
+	observation-tdee 0..1 MS and
+	observation-bmr 0..1 MS
 	
 * entry[observation-bmr] ^short = "基礎代謝率(BMR)"
 * entry[observation-bmr].resource 1..1 MS

@@ -1,7 +1,7 @@
-Instance:     con-cancer
-InstanceOf:   ConditionCancerPAD
-Title:        "癌症"
-Description:  "依據癌症-Condition Cancer PAD Profile呈現癌症之範例"
+Instance:       con-cancer
+InstanceOf:     ConditionCancerPAD
+Title:          "癌症"
+Description:    "依據癌症-Condition Cancer PAD Profile呈現癌症之範例"
 Usage: #example
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active
 * code.coding[icd10-cm-2023] = https://twcore.mohw.gov.tw/ig/twcore/CodeSystem/icd-10-cm-2023-tw#C02.8

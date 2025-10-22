@@ -1,7 +1,7 @@
 Instance:       obs-day-steps
 InstanceOf:     ObservationDailyStepsPAD
 Title:          "每日步數"
-Description:    "依據每日步數-Observation Daily Steps PAD Profile呈現使用者每日步數之範例"
+Description:    "依據每日步數-Observation Daily Steps PAD Profile呈現每日步數之範例"
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity "Activity"

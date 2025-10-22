@@ -4,7 +4,7 @@ Id:             Bundle-health-risk-assessment-pad
 Title:          "健康風險評估-Bundle Health Risk Assessment PAD"
 Description:    "此健康風險評估-Bundle Health Risk Assessment PAD Profile說明本IG如何進一步定義資料交換基本單位(TW Core Bundle) Profile以呈現健康風險評估之內容"
 * type = #transaction
-* entry 1..* MS
+* entry 11..* MS
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #closed

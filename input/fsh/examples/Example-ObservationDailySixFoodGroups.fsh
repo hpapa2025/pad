@@ -1,7 +1,7 @@
 Instance:    ObservationSixMajorFoodGroups
 InstanceOf:  ObservationSixMajorFoodGroupsPAD
 Title:       "六大類食物紀錄"
-Description: "依據六大類食物紀錄-Observation Six Major Food Groups PAD Profile呈現使用者一日中六大類食物的攝取量。"
+Description: "依據六大類食物紀錄-Observation Six Major Food Groups PAD Profile呈現一日中六大類食物的攝取量。"
 Usage: #example
 
 * status = #final

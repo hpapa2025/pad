@@ -1,7 +1,7 @@
 Instance:       goal-weight
 InstanceOf:     GoalWeightPAD
 Title:          "體重目標"
-Description:    "依據體重目標-Goal Weight PAD Profile呈現使用者的體重目標之範例"
+Description:    "依據體重目標-Goal Weight PAD Profile呈現體重目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral
@@ -10,7 +10,7 @@ Usage: #example
 
 * startDate = "2025-08-30"
 
-* target.measure.coding = $LOINC#50064-5 "Ideal body weight"
+* target.measure = $LOINC#50064-5 "Ideal body weight"
 
 * target[0].detailQuantity.value = 65
 * target[0].detailQuantity.unit = "kg"

@@ -1,7 +1,7 @@
 Instance:       obs-stand-hours
 InstanceOf:     ObservationStandHoursPAD
 Title:          "站立時數"
-Description:    "依據站立時數-Observation Stand Hours PAD Profile呈現使用者站立時數之範例"
+Description:    "依據站立時數-Observation Stand Hours PAD Profile呈現站立時數之範例"
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity

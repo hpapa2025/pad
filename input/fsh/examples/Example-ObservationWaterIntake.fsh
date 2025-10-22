@@ -1,7 +1,7 @@
 Instance:       obs-water-intake
 InstanceOf:     ObservationWaterIntakePAD
 Title:          "每次攝取水量"
-Description:    "依據每次攝取水量-Observation Water Intake PAD Profile呈現使用者的每次攝取水量之範例"
+Description:    "依據每次攝取水量-Observation Water Intake PAD Profile呈現每次攝取水量之範例"
 Usage: #example
 * status = #final
 * code.coding = http://snomed.info/sct#226354008 "Water intake"

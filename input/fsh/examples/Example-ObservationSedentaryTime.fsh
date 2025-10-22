@@ -1,7 +1,7 @@
 Instance:       obs-sedentary-time
 InstanceOf:     ObservationSedentaryTimePAD
 Title:          "每日靜態/久坐時間"
-Description:    "依據每日靜態/久坐時間-Observation Sedentary Time PAD Profile呈現使用者每日靜態/久坐時間之範例"
+Description:    "依據每日靜態/久坐時間-Observation Sedentary Time PAD Profile呈現每日靜態/久坐時間之範例"
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity

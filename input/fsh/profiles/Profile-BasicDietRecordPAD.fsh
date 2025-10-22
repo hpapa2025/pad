@@ -17,17 +17,17 @@ Description:    "此飲食紀錄-Basic Diet Record PAD Profile說明PAD IG如何
 * extension contains 
 	MealType named mealType 0..1 and
 	NutritionProductCharacteristic named img 0..1 and
-	NutritionIntakeAmount named intake 0..1 and
-	NutritionProductCode named name 0..1 and
-	NutritionProductEnergy named calories 0..1 and
-	NutritionProductNutrient named nutrient 0..6
+	NutritionIntakeAmount named intake 1..1 and
+	NutritionProductCode named name 1..1 and
+	NutritionProductEnergy named calories 1..1 and
+	NutritionProductNutrient named nutrient 0..9
 
 * extension[mealType] ^short = "餐次。breakfast：早餐｜lunch：午餐｜dinner：晚餐｜snack：點心｜fruit：水果"
 * extension[img] ^short = "食物照片"
 * extension[intake] ^short = "攝取份數"
 * extension[name] ^short = "食物名稱"
 * extension[calories] ^short = "總熱量攝取"
-* extension[nutrient] ^short = "六大類食物攝取份數"
+* extension[nutrient] ^short = "六大類食物攝取份數與營養素含量"
 * identifier ^short = "商品條碼"
 * created ^short = "記錄時間"
 
@@ -44,22 +44,85 @@ Context: Basic
 
 Extension: NutritionProductNutrient
 Id: extension-nutritionproduct-nutrient
-Description: "六大類食物攝取份數(NutritionProduct.nutrient)"
+Description: "六大類食物攝取份數與營養素含量(NutritionProduct.nutrient)"
 Context: Basic
-* . ^definition = "六大類食物攝取份數"
+* . ^definition = "六大類食物攝取份數與營養素含量"
 * extension contains
-    item 1..1 and
-    amount 1..1
+    grains 0..1 and
+    proteinFoods 0..1 and
+    dairy 0..1 and
+    vegetable 0..1 and
+    fruits 0..1 and
+    oilsAndNuts 0..1 and
+    protein 0..1 and
+    fats 0..1 and
+    carbohydrate 0..1
 
-* extension[item] ^short = "六大類食物。80456-7：全穀雜糧類｜80464-1：豆魚肉蛋類｜80462-5：乳品類｜80460-9：蔬菜類｜80458-3：水果類｜80466-6：堅果種子類"
-* extension[item].value[x] 1..1
-* extension[item].value[x] only CodeableConcept
-* extension[item].value[x] from SixFoodGroups
+* extension[grains] ^short = "全穀雜糧類"
+* extension[grains].value[x] 1..1
+* extension[grains].value[x] only integer
+* extension[grains].valueInteger ^short = "攝取份數"
 
-* extension[amount] ^short = "攝取份數"
-* extension[amount].value[x] 1..1
-* extension[amount].value[x] only integer
-* extension[amount].valueInteger ^short = "攝取份數"
+* extension[proteinFoods] ^short = "豆魚肉蛋類"
+* extension[proteinFoods].value[x] 1..1
+* extension[proteinFoods].value[x] only integer
+* extension[proteinFoods].valueInteger ^short = "攝取份數"
+
+* extension[dairy] ^short = "乳品類"
+* extension[dairy].value[x] 1..1
+* extension[dairy].value[x] only integer
+* extension[dairy].valueInteger ^short = "攝取份數"
+
+* extension[vegetable] ^short = "蔬菜類"
+* extension[vegetable].value[x] 1..1
+* extension[vegetable].value[x] only integer
+* extension[vegetable].valueInteger ^short = "攝取份數"
+
+* extension[fruits] ^short = "水果類"
+* extension[fruits].value[x] 1..1
+* extension[fruits].value[x] only integer
+* extension[fruits].valueInteger ^short = "攝取份數"
+
+* extension[oilsAndNuts] ^short = "堅果種子類"
+* extension[oilsAndNuts].value[x] 1..1
+* extension[oilsAndNuts].value[x] only integer
+* extension[oilsAndNuts].valueInteger ^short = "攝取份數"
+
+* extension[protein] ^short = "蛋白質"
+* extension[protein].value[x] 1..1
+* extension[protein].value[x] only Quantity
+* extension[protein].valueQuantity ^short = "攝取量"
+* extension[protein].valueQuantity.code = #g
+* extension[protein].valueQuantity.unit = "g"
+* extension[protein].valueQuantity.system = "http://unitsofmeasure.org"
+* extension[protein].valueQuantity.unit 1..1
+* extension[protein].valueQuantity.system 1..1
+* extension[protein].valueQuantity.code 1..1
+* extension[protein].valueQuantity.value 1..1
+
+* extension[fats] ^short = "脂肪"
+* extension[fats].value[x] 1..1
+* extension[fats].value[x] only Quantity
+* extension[fats].valueQuantity ^short = "攝取量"
+* extension[fats].valueQuantity.code = #g
+* extension[fats].valueQuantity.unit = "g"
+* extension[fats].valueQuantity.system = "http://unitsofmeasure.org"
+* extension[fats].valueQuantity.unit 1..1
+* extension[fats].valueQuantity.system 1..1
+* extension[fats].valueQuantity.code 1..1
+* extension[fats].valueQuantity.value 1..1
+
+* extension[carbohydrate] ^short = "碳水化合物"
+* extension[carbohydrate].value[x] 1..1
+* extension[carbohydrate].value[x] only Quantity
+* extension[carbohydrate].valueQuantity ^short = "攝取量"
+* extension[carbohydrate].valueQuantity.code = #g
+* extension[carbohydrate].valueQuantity.unit = "g"
+* extension[carbohydrate].valueQuantity.system = "http://unitsofmeasure.org"
+* extension[carbohydrate].valueQuantity.unit 1..1
+* extension[carbohydrate].valueQuantity.system 1..1
+* extension[carbohydrate].valueQuantity.code 1..1
+* extension[carbohydrate].valueQuantity.value 1..1
 
 Extension: NutritionProductEnergy
 Id: extension-nutritionproduct-energy

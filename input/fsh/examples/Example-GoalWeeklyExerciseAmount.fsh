@@ -1,7 +1,7 @@
-Instance:       goal-week-exerciseAmount
+Instance:       goal-week-exercise-amount
 InstanceOf:     GoalWeeklyExerciseAmountPAD
 Title:          "每週運動量目標"
-Description:    "依據每週運動量目標-Goal Weekly Exercise Amount PAD Profile呈現使用者的每週運動量目標之範例"
+Description:    "依據每週運動量目標-Goal Weekly Exercise Amount PAD Profile呈現每週運動量目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral
@@ -10,7 +10,7 @@ Usage: #example
 
 * startDate = "2025-08-30"
 
-* target.measure.coding = $LOINC#74009-2 "Exercise duration/Exercise frequency"
+* target.measure = $LOINC#74009-2 "Exercise duration/Exercise frequency"
 
 * target[0].detailQuantity.value = 210
 * target[0].detailQuantity.unit = "min"

@@ -1,7 +1,7 @@
-Instance:       goal-day-caloriesBurned
+Instance:       goal-day-calories-burned
 InstanceOf:     GoalDailyCaloriesBurnedPAD
 Title:          "每日總熱量消耗目標"
-Description:    "依據每日總熱量消耗目標-Goal Daily Calories Burned PAD Profile呈現使用者的每日消耗的熱量目標之範例"
+Description:    "依據每日總熱量消耗目標-Goal Daily Calories Burned PAD Profile呈現每日總熱量消耗目標之範例"
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral
@@ -10,7 +10,7 @@ Usage: #example
 
 * startDate = "2025-08-30"
 
-* target.measure.coding = $LOINC#41979-6 "Calories burned in 24 hour Calculated"
+* target.measure = $LOINC#41979-6 "Calories burned in 24 hour Calculated"
 
 * target[0].detailQuantity.value = 600
 * target[0].detailQuantity.unit = "kcal"

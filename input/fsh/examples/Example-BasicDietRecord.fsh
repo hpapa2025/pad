@@ -26,11 +26,24 @@ Usage: #example
 * extension[calories].valueQuantity.system = "http://unitsofmeasure.org"
 * extension[calories].valueQuantity.code = #kcal
 
-* extension[nutrient].url = "https://www.hpa.gov.tw/pad/StructureDefinition/extension-nutritionproduct-nutrient"
-* extension[nutrient].extension[item].url = "item"
-* extension[nutrient].extension[item].valueCodeableConcept = $LOINC#80464-1
-* extension[nutrient].extension[amount].url = "amount"
-* extension[nutrient].extension[amount].valueInteger = 1
+* extension[nutrient][0].url = "https://www.hpa.gov.tw/pad/StructureDefinition/extension-nutritionproduct-nutrient"
+* extension[nutrient][0].extension[proteinFoods].url = "proteinFoods"
+* extension[nutrient][0].extension[proteinFoods].valueInteger = 1
+* extension[nutrient][0].extension[protein].url = "protein"
+* extension[nutrient][0].extension[protein].valueQuantity.value = 6
+* extension[nutrient][0].extension[protein].valueQuantity.code = #g
+* extension[nutrient][0].extension[protein].valueQuantity.unit = "g"
+* extension[nutrient][0].extension[protein].valueQuantity.system = "http://unitsofmeasure.org"
+* extension[nutrient][0].extension[fats].url = "fats"
+* extension[nutrient][0].extension[fats].valueQuantity.value = 3
+* extension[nutrient][0].extension[fats].valueQuantity.code = #g
+* extension[nutrient][0].extension[fats].valueQuantity.unit = "g"
+* extension[nutrient][0].extension[fats].valueQuantity.system = "http://unitsofmeasure.org"
+* extension[nutrient][0].extension[carbohydrate].url = "carbohydrate"
+* extension[nutrient][0].extension[carbohydrate].valueQuantity.value = 4
+* extension[nutrient][0].extension[carbohydrate].valueQuantity.code = #g
+* extension[nutrient][0].extension[carbohydrate].valueQuantity.unit = "g"
+* extension[nutrient][0].extension[carbohydrate].valueQuantity.system = "http://unitsofmeasure.org"
 
 * extension[img].url = "https://www.hpa.gov.tw/pad/StructureDefinition/extension-nutritionproduct-characteristic"
 * extension[img].valueAttachment.url = "https://storage.google.com/h2u/2025/09/01/xxxxx.jpg"
@@ -47,10 +60,12 @@ Usage: #example
     <p><b>攝取份數</b>：240 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM codeml = 'ml')</span></p>
     <p><b>總熱量攝取</b>：90 kcal<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM codekcal = 'kcal')</span></p>
     <blockquote>
-        <p><b>六大類食物攝取份數</b></p>
+        <p><b>六大類食物攝取份數與營養素含量</b></p>
         <ul>
-            <li>六大類食物：<span title=\"Codes:{http://loinc.org 80464-1}\">Protein servings 24 hour Measured</span></li>
-            <li>攝取份數：1</li>
+            <li>豆魚肉蛋類：1份</li>
+            <li>蛋白質：6 g</li>
+            <li>脂肪：3 g</li>
+            <li>碳水化合物：4 g</li>
         </ul>
     </blockquote>
     <p><b>記錄人</b>：<a href=\"Patient-pat-min.html\">Patient/pat-min</a></p>
