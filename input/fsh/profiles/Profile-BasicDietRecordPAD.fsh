@@ -20,7 +20,7 @@ Description:    "此飲食紀錄-Basic Diet Record PAD Profile說明PAD IG如何
 	NutritionIntakeAmount named intake 1..1 and
 	NutritionProductCode named name 1..1 and
 	NutritionProductEnergy named calories 1..1 and
-	NutritionProductNutrient named nutrient 3..9
+	NutritionProductNutrient named nutrient 1..1
 
 * extension[mealType] ^short = "餐次。breakfast：早餐｜lunch：午餐｜dinner：晚餐｜snack：點心｜fruit：水果"
 * extension[img] ^short = "食物照片"

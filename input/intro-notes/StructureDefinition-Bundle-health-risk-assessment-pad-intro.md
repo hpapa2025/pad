@@ -3,16 +3,16 @@
 
 #### HTTP Request
 
-A CDS Client SHALL call a CDS Service by `POST`ing a JSON document to the service as described in this section. The CDS Service endpoint can be constructed from the CDS Service base URL and an individual service id as `{baseUrl}/cds-services/{service.id}`. CDS Clients may add additional requirements for the triggering of a hook, based upon the user, workflow, CDS Service or other reasons (e.g. if the service is provided by a payer, the patient has active coverage with that payer). See [Trusting CDS Services](#trusting-cds-services) for additional considerations.
+A CDS Client SHALL call a CDS Service by `POST`ing a JSON document to the service as described in this section. The CDS Service endpoint can be constructed from the CDS Service base URL and an individual service id as `{baseUrl}/cds-services/{service.id}`. CDS Clients may add additional requirements for the triggering of a hook, based upon the user, workflow, CDS Service or other reasons (e.g. if the service is provided by a payer, the patient has active coverage with that payer).
 
 The request SHALL include a JSON `POST` body with the following input fields:
 
 Field | Optionality | Type | Description
 ----- | ----- | ----- | --------
-`hook` | REQUIRED | *string* | The hook that triggered this CDS Service call. See [Hooks](#hooks).
-`hookInstance` | REQUIRED | *string* | A universally unique identifier (UUID) for this particular hook call (see more information below).
-`context` | REQUIRED | *object* | Hook-specific contextual data that the CDS service will need.<br />For example, with the `patient-view` hook this will include the FHIR id of the [Patient](https://www.hl7.org/fhir/patient.html) being viewed.  For details, see the Hooks specific specification page (example: [patient-view]({{site.data.links.library-contexts.build.url}}patient-view.html)).
-`prefetch` | OPTIONAL | *object* | The FHIR data that was prefetched by the CDS Client (see more information below).
+`hook` | REQUIRED | *string* | The hook that triggered this CDS Service call.
+`hookInstance` | REQUIRED | *string* | A universally unique identifier (UUID) for this particular hook call.
+`context` | REQUIRED | *object* | Hook-specific contextual data that the CDS service will need.<br />For example, with the `patient-view` hook this will include the FHIR id of the [Patient](https://www.hl7.org/fhir/patient.html) being viewed.
+`prefetch` | OPTIONAL | *object* | The FHIR data that was prefetched by the CDS Client.
 {:.grid}
 
 ##### hookInstance
