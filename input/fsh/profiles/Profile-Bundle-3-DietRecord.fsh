@@ -9,7 +9,7 @@ Description:    "此飲食紀錄-Bundle Diet Record PAD Profile說明本IG如何
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #closed
 * entry contains
-	basic-diet-record 0..* MS
+	basic-diet-record 1..* MS
 
 * entry[basic-diet-record] ^short = "飲食紀錄"
 * entry[basic-diet-record].resource 1..1 MS

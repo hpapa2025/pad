@@ -2,7 +2,7 @@ Mapping: GoalManagement
 Id: GoalManagement
 Title: "Mapping to GoalManagementModel"
 Source: GoalManagementModel
-Target: "https://www.hpa.gov.tw/pad/"
+Target: "https://fhir.hpa.gov.tw/pad/"
 * -> "BundleGoalManagement"
 
 // 減重目標

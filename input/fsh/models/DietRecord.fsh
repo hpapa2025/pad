@@ -6,7 +6,7 @@ Description: """
 """
 * ^version = "0.1.0"
 
-* dietRecords 1..1 BackboneElement "飲食紀錄"
+* dietRecords 0..* BackboneElement "飲食紀錄"
 * dietRecords.mealType 1..1 CodeableConcept "餐次"
 * dietRecords.intakeServings 1..1 integer "攝取份數"
 * dietRecords.foodName 1..1 string "食物名稱"

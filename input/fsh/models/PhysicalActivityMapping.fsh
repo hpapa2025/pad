@@ -2,7 +2,7 @@ Mapping: PhysAct
 Id: PhysAct
 Title: "Mapping to PhysicalActivityModel"
 Source: PhysicalActivityModel
-Target: "https://www.hpa.gov.tw/pad/"
+Target: "https://fhir.hpa.gov.tw/pad/"
 * -> "BundlePhysicalActivity"
 
 // 身體活動紀錄
@@ -20,9 +20,9 @@ Target: "https://www.hpa.gov.tw/pad/"
 
 // 運動紀錄
 * exerciseRecord -> "(運動紀錄)"
-* exerciseRecord.exerciseType -> "entry:ObservationExercise.where(code.coding.code = 'exerciseType' and code.coding.system='https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics').component[Type].valueCodeableConcept.coding.code"
-* exerciseRecord.mvpa -> "entry:ObservationExercise.where(code.coding.code = 'mvpa' and code.coding.system='https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics').component[MVPA].valueQuantity.value"
+* exerciseRecord.exerciseType -> "entry:ObservationExercise.where(code.coding.code = 'exerciseType' and code.coding.system='https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics').component[Type].valueCodeableConcept.coding.code"
+* exerciseRecord.mvpa -> "entry:ObservationExercise.where(code.coding.code = 'mvpa' and code.coding.system='https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics').component[MVPA].valueQuantity.value"
 * exerciseRecord.exerciseDateTime -> "entry:ObservationExercise.where(code.coding.code = '82287-4' and code.coding.system='http://loinc.org').effectivePeriod"
-* exerciseRecord.energyExpended -> "entry:ObservationExercise.where(code.coding.code = 'energyExpended' and code.coding.system='https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics').component[Kcal].valueQuantity.value"
-* exerciseRecord.exerciseIntensity -> "entry:ObservationExercise.where(code.coding.code = 'exerciseIntensity' and code.coding.system='https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics').component[Intensity].valueQuantity.value"
-* exerciseRecord.exerciseRecordSource -> "entry:ObservationExercise.where(code.coding.code = 'exerciseRecordSource' and code.coding.system='https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics').component[Source].valueCodeableConcept.coding.code"
+* exerciseRecord.energyExpended -> "entry:ObservationExercise.where(code.coding.code = 'energyExpended' and code.coding.system='https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics').component[Kcal].valueQuantity.value"
+* exerciseRecord.exerciseIntensity -> "entry:ObservationExercise.where(code.coding.code = 'exerciseIntensity' and code.coding.system='https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics').component[Intensity].valueQuantity.value"
+* exerciseRecord.exerciseRecordSource -> "entry:ObservationExercise.where(code.coding.code = 'exerciseRecordSource' and code.coding.system='https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics').component[Source].valueCodeableConcept.coding.code"

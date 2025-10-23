@@ -9,7 +9,7 @@ Description:    "此基礎代謝率-Observation BMR PAD Profile說明PAD IG如�
 * category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs
 * code.coding 1..1
 * code.coding from PADMetrics
-* code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#bmr
+* code.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics#bmr
 * effective[x] only dateTime
 * value[x] 1..
 * value[x] only Quantity

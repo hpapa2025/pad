@@ -5,7 +5,7 @@ Description:    "依據每日靜態/久坐時間-Observation Sedentary Time PAD 
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity
-* code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#sedentaryTime
+* code.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics#sedentaryTime
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
 * effectiveDateTime = "2025-08-30"

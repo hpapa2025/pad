@@ -2,7 +2,7 @@ Mapping: HealthSelfAssessment
 Id: HealthSelfAssessment
 Title: "Mapping to HealthSelfAssessmentModel"
 Source: HealthSelfAssessmentModel
-Target: "https://www.hpa.gov.tw/pad/"
+Target: "https://fhir.hpa.gov.tw/pad/"
 * -> "BundleAssessment"
 
 // 使用者基本資訊
@@ -19,8 +19,8 @@ Target: "https://www.hpa.gov.tw/pad/"
 * healthStatus.weight -> "entry:ObservationBodyWeightPAD.where(code.coding.code='29463-7' and code.coding.system='http://loinc.org').valueQuantity.value"
 * healthStatus.waist -> "entry:ObservationWaistPAD.where(code.coding.code='8280-0' and code.coding.system='http://loinc.org').valueQuantity.value"
 * healthStatus.bmi -> "entry:ObservationBMIPAD.where(code.coding.code='39156-5' and code.coding.system='http://loinc.org').valueQuantity.value"
-* healthStatus.eatingOutFrequency -> "entry:ObservationEatingOutFrequencyPAD.where(code.coding.code='eatingOutFrequency' and code.coding.system='https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics').valueCodeableConcept.coding"
-* healthStatus.dietaryPreferences -> "entry:ObservationDietaryPreferencesPAD.where(code.coding.code='dietaryPreferences' and code.coding.system='https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics').valueCodeableConcept.coding"
+* healthStatus.eatingOutFrequency -> "entry:ObservationEatingOutFrequencyPAD.where(code.coding.code='eatingOutFrequency' and code.coding.system='https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics').valueCodeableConcept.coding"
+* healthStatus.dietaryPreferences -> "entry:ObservationDietaryPreferencesPAD.where(code.coding.code='dietaryPreferences' and code.coding.system='https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics').valueCodeableConcept.coding"
 * healthStatus.occupation -> "entry:ObservationOccupationPAD.where(code.coding.code='11341-5' and code.coding.system='http://loinc.org').valueCodeableConcept.coding.code"
 
 // 健康風險評估
@@ -36,9 +36,9 @@ Target: "https://www.hpa.gov.tw/pad/"
 
 // 運動習慣評估
 * exerciseHabit -> "(運動習慣評估)"
-* exerciseHabit.sedentaryTime -> "entry:ObservationSedentaryTimePAD.where(code.coding.code='sedentaryTime' and code.coding.system='https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics').valueInteger"
-* exerciseHabit.exerciseFrequency -> "entry:ObservationExerciseFrequencyPAD.where(code.coding.code='exerciseFrequency' and code.coding.system='https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics').valueCodeableConcept.coding.code"
-* exerciseHabit.exerciseAmount -> "entry:ObservationExerciseAmountPAD.where(code.coding.code='exerciseAmount' and code.coding.system='https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics').valueQuantity.value"
+* exerciseHabit.sedentaryTime -> "entry:ObservationSedentaryTimePAD.where(code.coding.code='sedentaryTime' and code.coding.system='https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics').valueInteger"
+* exerciseHabit.exerciseFrequency -> "entry:ObservationExerciseFrequencyPAD.where(code.coding.code='exerciseFrequency' and code.coding.system='https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics').valueCodeableConcept.coding.code"
+* exerciseHabit.exerciseAmount -> "entry:ObservationExerciseAmountPAD.where(code.coding.code='exerciseAmount' and code.coding.system='https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics').valueQuantity.value"
 
 // 健康目標
 * goalHealth -> "(健康目標)"

@@ -9,7 +9,7 @@ Description:    "此身體圓度指數-Observation BRI PAD Profile說明PAD IG�
 * category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs
 * code.coding 1..1
 * code.coding from PADMetrics
-* code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#bri
+* code.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics#bri
 * effective[x] only dateTime
 * valueQuantity 1..1
 * valueQuantity ^short = "BRI"

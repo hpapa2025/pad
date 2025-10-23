@@ -5,8 +5,7 @@ Title:          "血壓(收縮壓+舒張壓)-Observation Blood Pressure PAD"
 Description:    "此血壓(收縮壓+舒張壓)-Observation Blood Pressure PAD Profile說明PAD IG如何進一步定義臺灣核心-血壓（TW Core Observation Blood Pressure) PAD Profile以呈現收縮壓及舒張壓的詳細記錄。"
 * status = #final
 * category 1..1
-* category[VSCat] 1..1
-* category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs
+* category[VSCat].coding 1..1
 * code.coding 1..1
 * code.coding ^slicing.rules = #closed
 * code.coding[BPCode] = http://loinc.org#85354-9

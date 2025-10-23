@@ -5,7 +5,7 @@ Description:    "依據中高強度活動累計-Observation Exercise Amount PAD 
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity
-* code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#exerciseAmount
+* code.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics#exerciseAmount
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
 * effectiveDateTime = "2025-08-30T14:20:00+08:00"

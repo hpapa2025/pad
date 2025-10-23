@@ -12,7 +12,7 @@ Usage: #example
 
 * target.measure = $SCT#248114003 "Actions to lose weight"
 
-* target[0].detailCodeableConcept.coding = https://www.hpa.gov.tw/pad/CodeSystem/weight-loss-intensity#low "低"
+* target[0].detailCodeableConcept.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/weight-loss-intensity#low "低"
 
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">

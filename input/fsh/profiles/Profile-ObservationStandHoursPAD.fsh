@@ -5,6 +5,7 @@ Title:          "站立時數-Observation Stand Hours PAD"
 Description:    "此站立時數-Observation Stand Hours PAD Profile說明PAD IG如何進一步定義FHIR的Observation Resource以呈現站立時數的詳細記錄。"
 * status = #final
 * category 1..1
+* category.coding 1..1
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity
 * code.coding 1..1
 * code.coding = http://snomed.info/sct#10904000

@@ -8,7 +8,7 @@ Usage: #example
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
 * effectiveDateTime = "2025-08-30T14:20:00+08:00"
-* code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#bmr
+* code.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics#bmr
 * valueQuantity.value = 1675
 * valueQuantity.unit = "kcal"
 * valueQuantity.system = "http://unitsofmeasure.org"

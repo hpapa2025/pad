@@ -6,6 +6,7 @@ Description:    "此空腹血糖-Observation Fasting Glucose PAD Profile說明PA
 * status = #final
 * category 1..1
 * category[twcore] 1..1
+* category[twcore].coding 1..1
 * category[twcore] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code.coding 1..1
 * code.coding[LOINCObservationCode] 1..1
@@ -13,7 +14,8 @@ Description:    "此空腹血糖-Observation Fasting Glucose PAD Profile說明PA
 * code.coding[TWLaboratoryCategory] 0..0
 * code.coding ^slicing.rules = #closed
 * value[x] only Quantity 
-* valueQuantity 1..1 MS
+* valueQuantity 1..1
+* valueQuantity.value 1..1 MS
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.code = #mg/dL
 * valueQuantity.system = "http://unitsofmeasure.org"

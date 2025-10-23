@@ -11,6 +11,7 @@ Description:    "此體重-Observation Body Weight PAD Profile說明PAD IG如何
 * code.coding ^slicing.rules = #closed
 * code.coding[BodyWeightCode] = http://loinc.org#29463-7
 * effective[x] only dateTime
+* effective[x] ^short = "體重記錄時間"
 * valueQuantity 1..1
 * valueQuantity.code = #kg
 * valueQuantity.unit = "kg"

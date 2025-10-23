@@ -7,26 +7,26 @@ Usage: #example
 * subject.reference = "Patient/pat-min"
 * created = "2025-10-20"
 
-* extension[mealType].url = "https://www.hpa.gov.tw/pad/StructureDefinition/extension-meal-type"
-* extension[mealType].valueCodeableConcept = https://www.hpa.gov.tw/pad/CodeSystem/pad-meal-type#breakfast
+* extension[mealType].url = "https://fhir.hpa.gov.tw/pad/StructureDefinition/extension-meal-type"
+* extension[mealType].valueCodeableConcept = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-meal-type#breakfast
 
-* extension[name].url = "https://www.hpa.gov.tw/pad/StructureDefinition/extension-nutritionproduct-code"
+* extension[name].url = "https://fhir.hpa.gov.tw/pad/StructureDefinition/extension-nutritionproduct-code"
 * extension[name].valueCodeableConcept = http://snomed.info/sct#226793001 "Soya milk"
 * extension[name].valueCodeableConcept.text = "豆漿"
 
-* extension[intake].url = "https://www.hpa.gov.tw/pad/StructureDefinition/extension-nutritionintake-amount"
+* extension[intake].url = "https://fhir.hpa.gov.tw/pad/StructureDefinition/extension-nutritionintake-amount"
 * extension[intake].valueQuantity.value = 240
 * extension[intake].valueQuantity.unit = "ml"
 * extension[intake].valueQuantity.system = "http://unitsofmeasure.org"
 * extension[intake].valueQuantity.code = #ml
 
-* extension[calories].url = "https://www.hpa.gov.tw/pad/StructureDefinition/extension-nutritionproduct-energy"
+* extension[calories].url = "https://fhir.hpa.gov.tw/pad/StructureDefinition/extension-nutritionproduct-energy"
 * extension[calories].valueQuantity.value = 90
 * extension[calories].valueQuantity.unit = "kcal"
 * extension[calories].valueQuantity.system = "http://unitsofmeasure.org"
 * extension[calories].valueQuantity.code = #kcal
 
-* extension[nutrient][0].url = "https://www.hpa.gov.tw/pad/StructureDefinition/extension-nutritionproduct-nutrient"
+* extension[nutrient][0].url = "https://fhir.hpa.gov.tw/pad/StructureDefinition/extension-nutritionproduct-nutrient"
 * extension[nutrient][0].extension[proteinFoods].url = "proteinFoods"
 * extension[nutrient][0].extension[proteinFoods].valueInteger = 1
 * extension[nutrient][0].extension[protein].url = "protein"
@@ -45,7 +45,7 @@ Usage: #example
 * extension[nutrient][0].extension[carbohydrate].valueQuantity.unit = "g"
 * extension[nutrient][0].extension[carbohydrate].valueQuantity.system = "http://unitsofmeasure.org"
 
-* extension[img].url = "https://www.hpa.gov.tw/pad/StructureDefinition/extension-nutritionproduct-characteristic"
+* extension[img].url = "https://fhir.hpa.gov.tw/pad/StructureDefinition/extension-nutritionproduct-characteristic"
 * extension[img].valueAttachment.url = "https://storage.google.com/h2u/2025/09/01/xxxxx.jpg"
 
 * text.status = #generated
@@ -53,8 +53,8 @@ Usage: #example
     <div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\">
         <p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Basic-diet-record-pad.html\">飲食紀錄-Basic Diet Record PAD</a></p>
     </div>
-    <p><b>code</b>：<span title=\"Codes:{https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics dietRecorde}\">飲食紀錄</span></p>
-    <p><b>餐次</b>：<span title=\"Codes:{https://www.hpa.gov.tw/pad/CodeSystem/pad-meal-type breakfast}\">早餐</span>
+    <p><b>code</b>：<span title=\"Codes:{https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics dietRecorde}\">飲食紀錄</span></p>
+    <p><b>餐次</b>：<span title=\"Codes:{https://fhir.hpa.gov.tw/pad/CodeSystem/pad-meal-type breakfast}\">早餐</span>
     </p>
     <p><b>食物名稱</b>：<span title=\"Codes:{http://snomed.info/sct 226793001}\">豆漿</span></p>
     <p><b>攝取份數</b>：240 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM codeml = 'ml')</span></p>

@@ -27,12 +27,12 @@ Description: """
 // 健康風險評估
 * healthRisk 1..1 BackboneElement "健康風險評估"
 * healthRisk.familyChronicHistory 0..1 code "慢性疾病家族史"
-* healthRisk.cancer 0..1 code "癌症"
-* healthRisk.cardioVascularDisease 0..1 code "心血管疾病"
-* healthRisk.diabetesMellitus 0..1 code "糖尿病"
-* healthRisk.highBloodPressure 0..1 code "高血壓"
-* healthRisk.hyperlipidemia 0..1 code "高血脂"
-* healthRisk.chronicDiseases 0..1 code "其他慢性病"
+* healthRisk.cancer 0..* code "癌症"
+* healthRisk.cardioVascularDisease 0..* code "心血管疾病"
+* healthRisk.diabetesMellitus 0..* code "糖尿病"
+* healthRisk.highBloodPressure 0..* code "高血壓"
+* healthRisk.hyperlipidemia 0..* code "高血脂"
+* healthRisk.chronicDiseases 0..* code "其他慢性病"
 * healthRisk.smokingHabit 1..1 CodeableConcept "吸菸習慣"
 
 // 運動習慣評估

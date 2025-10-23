@@ -5,6 +5,7 @@ Title:          "壓力指數-Observation Stress Index PAD"
 Description:    "此壓力指數-Observation Stress Index PAD Profile說明PAD IG如何進一步定義FHIR的Observation Resource以呈現壓力指數的詳細記錄。"
 * status 1..1
 * category 1..1
+* category.coding 1..1
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity
 * code.coding 1..1
 * code.coding = http://loinc.org#93038-8

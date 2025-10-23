@@ -5,8 +5,7 @@ Title:          "身體質量指數-Observation BMI PAD"
 Description:    "此身體質量指數-Observation BMI PAD Profile說明PAD IG如何進一步定義臺灣核心-身體質量指數（TW Core Observation Body BMI） Profile以呈現與身體數值之身體質量指數的詳細記錄。"
 * status = #final
 * category 1..1
-* category[VSCat] 1..1
-* category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs
+* category[VSCat].coding 1..1
 * code.coding 1..1
 * code.coding ^slicing.rules = #closed
 * code.coding[BMICode] = http://loinc.org#39156-5

@@ -5,15 +5,16 @@ Title:          "每日靜態/久坐時間-Observation Sedentary Time PAD"
 Description:    "此每日靜態/久坐時間-Observation Sedentary Time PAD Profile說明PAD IG如何進一步定義FHIR的Observation Resource以呈現每日靜態/久坐時間的詳細記錄。"
 * status = #final
 * category 1..1
+* category.coding 1..1
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity
 * code.coding 1..1
 * code.coding from PADMetrics
-* code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#sedentaryTime
+* code.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics#sedentaryTime
 * effective[x] 1..1
 * effective[x] only dateTime
 * value[x] 1..1
 * value[x] only integer
-* valueInteger ^short = "每日靜態/久坐時間"
+* valueInteger ^short = "每日靜態/久坐時間。值必須介於 0 到 24"
 * valueInteger obeys 0-24
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)

@@ -1,7 +1,7 @@
 Instance: CapabilityStatementPADClient
 InstanceOf: CapabilityStatement
 Usage: #definition
-* url = "https://www.hpa.gov.tw/pad/CapabilityStatement/CapabilityStatementPADClient"
+* url = "https://fhir.hpa.gov.tw/pad/CapabilityStatement/CapabilityStatementPADClient"
 * version = "0.1.0"
 * name = "CapabilityStatementPADClient"
 * title = "身體活動與飲食-用戶端(PAD Client)"
@@ -14,7 +14,7 @@ Usage: #definition
 * format[0] = #application/fhir+json
 * format[+] = #application/fhir+xml
 * patchFormat = #application/json-patch+json
-* implementationGuide = "https://www.hpa.gov.tw/pad/ImplementationGuide/tw.gov.mohw.hpa.pad"
+* implementationGuide = "https://fhir.hpa.gov.tw/pad/ImplementationGuide/tw.gov.mohw.hpa.pad"
 * description = "臺灣身體活動與飲食實作指引(PAD IG)用戶端(Client)之能力聲明"
 * rest.mode = #client
 * rest.documentation = "身體活動與飲食-用戶端(PAD Client)必須（SHALL）使用身體活動與飲食伺服端（PAD Server）能力聲明中的查詢參數，支援讀取和查詢一個或多個身體活動與飲食Profile(s)。"
@@ -28,7 +28,7 @@ Usage: #definition
 * rest.interaction[=].code = #batch
 
 * rest.resource[+].type = #Patient
-* rest.resource[=].profile = "https://www.hpa.gov.tw/pad/StructureDefinition/Patient-pad"
+* rest.resource[=].profile = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Patient-pad"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #create
@@ -44,7 +44,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Basic
-* rest.resource[=].profile = "https://www.hpa.gov.tw/pad/StructureDefinition/Basic-diet-record-pad"
+* rest.resource[=].profile = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Basic-diet-record-pad"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #create
@@ -60,12 +60,12 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Condition
-* rest.resource[=].supportedProfile[0] = "https://www.hpa.gov.tw/pad/StructureDefinition/Condition-cancer-pad"
-* rest.resource[=].supportedProfile[1] = "https://www.hpa.gov.tw/pad/StructureDefinition/Condition-cvd-pad"
-* rest.resource[=].supportedProfile[2] = "https://www.hpa.gov.tw/pad/StructureDefinition/Condition-cd-pad"
-* rest.resource[=].supportedProfile[3] = "https://www.hpa.gov.tw/pad/StructureDefinition/Condition-dm-pad"
-* rest.resource[=].supportedProfile[4] = "https://www.hpa.gov.tw/pad/StructureDefinition/Condition-hbp-pad"
-* rest.resource[=].supportedProfile[5] = "https://www.hpa.gov.tw/pad/StructureDefinition/Condition-hld-pad"
+* rest.resource[=].supportedProfile[0] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Condition-cancer-pad"
+* rest.resource[=].supportedProfile[1] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Condition-cvd-pad"
+* rest.resource[=].supportedProfile[2] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Condition-cd-pad"
+* rest.resource[=].supportedProfile[3] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Condition-dm-pad"
+* rest.resource[=].supportedProfile[4] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Condition-hbp-pad"
+* rest.resource[=].supportedProfile[5] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Condition-hld-pad"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #create
@@ -81,7 +81,7 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #FamilyMemberHistory
-* rest.resource[=].profile = "https://www.hpa.gov.tw/pad/StructureDefinition/FamilyMemberHistory-pad"
+* rest.resource[=].profile = "https://fhir.hpa.gov.tw/pad/StructureDefinition/FamilyMemberHistory-pad"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #create
@@ -97,19 +97,19 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Goal
-* rest.resource[=].supportedProfile[0] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-calories-intake-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-daily-calories-burned-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-daily-distance-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-daily-floors-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-daily-steps-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-health-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-six-food-groups-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-daily-water-intake-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-weekly-calories-burned-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-weekly-exercise-amount-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-weight-change-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-weight-loss-intensity-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Goal-weight-pad"
+* rest.resource[=].supportedProfile[0] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Goal-calories-intake-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Goal-daily-calories-burned-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Goal-daily-distance-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Goal-daily-floors-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Goal-daily-steps-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Goal-health-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Goal-six-food-groups-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Goal-daily-water-intake-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Goal-weekly-calories-burned-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Goal-weekly-exercise-amount-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Goal-weight-change-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Goal-weight-loss-intensity-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Goal-weight-pad"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #create
@@ -125,36 +125,36 @@ Usage: #definition
 * rest.resource[=].referencePolicy = #resolves
 
 * rest.resource[+].type = #Observation
-* rest.resource[=].supportedProfile[0] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-bmi-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-bmr-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-body-height-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-bfp-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-bloodPressure-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-chol-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-tg-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-fg-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-body-weight-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-bri-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-daily-distance-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-daily-floors-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-six-major-food-groups-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-daily-steps-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-dietary-preferences-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-eating-out-frequency-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-exercise-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-exercise-amount-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-exercise-frequency-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-heart-rate-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-hip-line-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-occupation-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-sedentary-time-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-sleep-hours-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-smokingStatus-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-stand-hours-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-stress-index-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-tdee-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-waist-pad"
-* rest.resource[=].supportedProfile[+] = "https://www.hpa.gov.tw/pad/StructureDefinition/Observation-water-intake-pad"
+* rest.resource[=].supportedProfile[0] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-bmi-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-bmr-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-body-height-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-bfp-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-bloodPressure-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-chol-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-tg-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-fg-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-body-weight-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-bri-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-daily-distance-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-daily-floors-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-six-major-food-groups-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-daily-steps-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-dietary-preferences-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-eating-out-frequency-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-exercise-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-exercise-amount-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-exercise-frequency-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-heart-rate-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-hip-line-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-occupation-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-sedentary-time-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-sleep-hours-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-smokingStatus-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-stand-hours-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-stress-index-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-tdee-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-waist-pad"
+* rest.resource[=].supportedProfile[+] = "https://fhir.hpa.gov.tw/pad/StructureDefinition/Observation-water-intake-pad"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHALL
 * rest.resource[=].interaction[=].code = #create

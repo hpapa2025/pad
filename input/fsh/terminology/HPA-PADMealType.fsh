@@ -2,7 +2,7 @@ CodeSystem:     PADMealTypeCodes
 Id:             pad-meal-type
 Title:          "HPA-餐次"
 Description:    "HPA-餐次"
-* ^url = "https://www.hpa.gov.tw/pad/CodeSystem/pad-meal-type"
+* ^url = "https://fhir.hpa.gov.tw/pad/CodeSystem/pad-meal-type"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false

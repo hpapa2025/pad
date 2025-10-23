@@ -2,7 +2,7 @@ CodeSystem:     HealthGoalsCodes
 Id:             health-goals
 Title:          "HPA-健康目標類別"
 Description:    "HPA-健康目標類別"
-* ^url = "https://www.hpa.gov.tw/pad/CodeSystem/health-goals"
+* ^url = "https://fhir.hpa.gov.tw/pad/CodeSystem/health-goals"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false

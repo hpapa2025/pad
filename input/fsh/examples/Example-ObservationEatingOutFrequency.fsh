@@ -5,11 +5,11 @@ Description:    "依據每週外食頻率-Observation Eating Out Frequency PAD P
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
-* code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#eatingOutFrequency
+* code.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics#eatingOutFrequency
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
 * effectiveDateTime = "2025-08-30T14:20:00+08:00"
-* valueCodeableConcept.coding = https://www.hpa.gov.tw/pad/CodeSystem/eating-out-frequency#13 "7-13次"
+* valueCodeableConcept.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/eating-out-frequency#13 "7-13次"
 
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">

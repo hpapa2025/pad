@@ -3,9 +3,12 @@ Parent:         TWCoreCondition
 Id:             Condition-cvd-pad
 Title:          "心血管疾病-Condition Cardiovascular Disease PAD"
 Description:    "此心血管疾病Condition Cardiovascular Disease PAD Profile說明PAD IG如何進一步定義臺灣核心-病情、問題或診斷（TW Core Condition）Profile以呈現心血管疾病之資料。"
+* clinicalStatus.coding 1..1
+* category.coding 1..1
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active
 * category = http://terminology.hl7.org/CodeSystem/condition-category#encounter-diagnosis
 * code 1..1
+* code ^short = "心血管疾病"
 * code.coding ^slicing.rules = #closed
 * code.coding 1..1
 * code.coding[icd10-cm-2023] from ICDCMCvd (required)

@@ -2,7 +2,7 @@ Mapping: DietRecord
 Id: DietRecord
 Title: "Mapping to DietRecordModel"
 Source: DietRecordModel
-Target: "https://www.hpa.gov.tw/pad/"
+Target: "https://fhir.hpa.gov.tw/pad/"
 * -> "BundleDiet"
 
 // 飲食紀錄

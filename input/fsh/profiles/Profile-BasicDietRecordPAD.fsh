@@ -15,12 +15,12 @@ Description:    "此飲食紀錄-Basic Diet Record PAD Profile說明PAD IG如何
 * extension ^slicing.rules = #closed
 
 * extension contains 
-	MealType named mealType 0..1 and
+	MealType named mealType 1..1 and
 	NutritionProductCharacteristic named img 0..1 and
 	NutritionIntakeAmount named intake 1..1 and
 	NutritionProductCode named name 1..1 and
 	NutritionProductEnergy named calories 1..1 and
-	NutritionProductNutrient named nutrient 0..9
+	NutritionProductNutrient named nutrient 3..9
 
 * extension[mealType] ^short = "餐次。breakfast：早餐｜lunch：午餐｜dinner：晚餐｜snack：點心｜fruit：水果"
 * extension[img] ^short = "食物照片"

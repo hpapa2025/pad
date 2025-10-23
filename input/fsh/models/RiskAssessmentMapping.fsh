@@ -2,7 +2,7 @@ Mapping: HealthRiskAssessment
 Id: HealthRiskAssessment
 Title: "Mapping to HealthRiskAssessmentModel"
 Source: HealthRiskAssessmentModel
-Target: "https://www.hpa.gov.tw/pad/"
+Target: "https://fhir.hpa.gov.tw/pad/"
 * -> "BundleRiskAssessment"
 
 // 使用者基本資訊

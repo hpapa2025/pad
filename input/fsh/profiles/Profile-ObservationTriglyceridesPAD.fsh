@@ -4,8 +4,7 @@ Id:             Observation-tg-pad
 Title:          "三酸甘油脂-Observation Triglycerides PAD"
 Description:    "此三酸甘油脂-Observation Triglycerides PAD Profile說明PAD IG如何進一步定義臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result）Profile以呈現三酸甘油脂的詳細記錄。"
 * status = #final
-* category[twcore] 1..1
-* category[twcore] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
+* category[twcore].coding 1..1
 * code.coding 1..1
 * code.coding[LOINCObservationCode] 1..1
 * code.coding[LOINCObservationCode] = http://loinc.org#2571-8

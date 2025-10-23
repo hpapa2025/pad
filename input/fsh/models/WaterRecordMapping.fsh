@@ -2,7 +2,7 @@ Mapping: WaterRecord
 Id: WaterRecord
 Title: "Mapping to WaterRecordModel"
 Source: WaterRecordModel
-Target: "https://www.hpa.gov.tw/pad/"
+Target: "https://fhir.hpa.gov.tw/pad/"
 * -> "BundleWater"
 
 // 飲水紀錄

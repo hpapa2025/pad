@@ -2,7 +2,7 @@ CodeSystem:     PADMetricsCodes
 Id:             pad-metrics
 Title:          "HPA-身體活動與飲食指標"
 Description:    "HPA-身體活動與飲食指標"
-* ^url = "https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics"
+* ^url = "https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false

@@ -9,7 +9,7 @@ Description:    "此每日步數目標-Goal Daily Steps PAD Profile說明PAD IG�
 * description ^short = "設定每日步數的目標"
 * description.coding 1..1
 * description.coding from PADMetrics (extensible)
-* description.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#steps
+* description.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics#steps
 * subject only Reference(PatientPAD)
 
 * start[x] 1..1 

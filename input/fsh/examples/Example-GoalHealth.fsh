@@ -12,7 +12,7 @@ Usage: #example
 
 * target.measure = $LOINC#87528-6 "Personal health goal"
 
-* target[0].detailCodeableConcept.coding = https://www.hpa.gov.tw/pad/CodeSystem/health-goals#balancedDiet "輔助達成均衡飲食"
+* target[0].detailCodeableConcept.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/health-goals#balancedDiet "輔助達成均衡飲食"
 
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">

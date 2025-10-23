@@ -5,7 +5,7 @@ Description:    "依據每日步數目標-Goal Daily Steps PAD Profile呈現每�
 Usage: #example
 * lifecycleStatus = #active
 * category = http://terminology.hl7.org/CodeSystem/goal-category#behavioral
-* description.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#steps "步數"
+* description.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics#steps "步數"
 * subject.reference = "Patient/pat-min"
 
 * startDate = "2025-08-30"

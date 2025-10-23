@@ -4,8 +4,7 @@ Id:             Observation-hip-line-pad
 Title:          "臀圍-Observation Hip Line PAD"
 Description:    "此臀圍-Observation Hip Line PAD Profile說明PAD IG如何進一步定義臺灣核心-生命體徵（TW Core Observation Vital Signs）Profile以呈現臀圍的詳細記錄。"
 * status = #final
-* category[VSCat] 1..1
-* category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs
+* category[VSCat].coding 1..1
 * code.coding 1..1
 * code.coding = http://snomed.info/sct#284472007
 * effective[x] only dateTime

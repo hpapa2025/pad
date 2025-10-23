@@ -4,8 +4,6 @@ Id:             Observation-chol-pad
 Title:          "總膽固醇(含高密度膽固醇+低密度膽固醇)-Observation Cholesterol PAD"
 Description:    "此總膽固醇(含高密度膽固醇+低密度膽固醇)-Observation Cholesterol PAD Profile說明PAD IG如何進一步定義臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result）Profile以呈現總膽固醇、高密度膽固醇及低密度膽固醇的詳細記錄。"
 * status = #final
-* category 1..1
-* category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory
 * code.coding 1..1
 * code.coding[LOINCObservationCode] 1..1
 * code.coding[LOINCObservationCode] = http://loinc.org#2093-3
@@ -13,6 +11,7 @@ Description:    "此總膽固醇(含高密度膽固醇+低密度膽固醇)-Obser
 * effective[x] only dateTime
 * value[x] only Quantity 
 * valueQuantity 1..1
+* valueQuantity.value 1..1
 * valueQuantity.code = #mg/dL
 * valueQuantity.unit = "mg/dL"
 * valueQuantity ^short = "總膽固醇及單位"
@@ -27,11 +26,12 @@ Description:    "此總膽固醇(含高密度膽固醇+低密度膽固醇)-Obser
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #closed
 * component contains
-    HDL 1..1 MS and
-    LDL 1..1 MS
+    HDL 0..1 MS and
+    LDL 0..1 MS
 
 * component[HDL] ^short = "高密度膽固醇(HDL)"
 * component[HDL].code = http://loinc.org#2085-9 "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+* component[HDL].value[x] 1..1
 * component[HDL].value[x] only Quantity
 * component[HDL].valueQuantity.value 1..1 MS
 * component[HDL].valueQuantity.value ^short = "高密度膽固醇(HDL)測量值"
@@ -42,6 +42,7 @@ Description:    "此總膽固醇(含高密度膽固醇+低密度膽固醇)-Obser
 * component[HDL].valueQuantity.code ^short = "單位"
 * component[LDL] ^short = "低密度膽固醇(LDL)"
 * component[LDL].code = http://loinc.org#2089-1 "Cholesterol in LDL [Mass/volume] in Serum or Plasma"
+* component[LDL].value[x] 1..1
 * component[LDL].value[x] only Quantity
 * component[LDL].valueQuantity.value 1..1 MS
 * component[LDL].valueQuantity.value ^short = "低密度膽固醇(LDL)測量值"

@@ -1,8 +1,8 @@
 CodeSystem:     WeightLossIntensityCodes
 Id:             weight-loss-intensity
 Title:          "HPA-減重強度等級"
-Description:    "HPA-健康目標類別"
-* ^url = "https://www.hpa.gov.tw/pad/CodeSystem/weight-loss-intensity"
+Description:    "HPA-減重強度等級"
+* ^url = "https://fhir.hpa.gov.tw/pad/CodeSystem/weight-loss-intensity"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false
@@ -14,8 +14,8 @@ Description:    "HPA-健康目標類別"
 
 ValueSet:       WeightLossIntensity
 Id:             weight-loss-intensity
-Title:          "HPA-健康目標類別值集"
-Description:    "HPA-健康目標類別值集"
+Title:          "HPA-減重強度等級值集"
+Description:    "HPA-減重強度等級值集"
 * ^experimental = false
 * ^version = "0.1.0"
 * include codes from system WeightLossIntensityCodes

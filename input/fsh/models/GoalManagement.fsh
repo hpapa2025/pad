@@ -7,13 +7,13 @@ Description: """
 * ^version = "0.1.0"
 
 // 減重目標
-* goalWeightLoss 1..1 BackboneElement "減重目標"
+* goalWeightLoss 0..1 BackboneElement "減重目標"
 * goalWeightLoss.goalWeight 1..1 integer "目標體重"
 * goalWeightLoss.goalweightChange 1..1 integer "每週增/減重目標"
 * goalWeightLoss.weightLossIntensity 1..1 code "減重強度"
 
 // 身體活動目標
-* goalPhysicalActivity 1..1 BackboneElement "身體活動目標"
+* goalPhysicalActivity 0..1 BackboneElement "身體活動目標"
 * goalPhysicalActivity.goalWeeklyCaloriesBurned 1..1 integer "每週卡路里消耗目標"
 * goalPhysicalActivity.goalWeeklyExerciseAmount 1..1 integer "每週運動量目標"
 * goalPhysicalActivity.goalDailyCaloriesBurned 1..1 integer "每日總熱量消耗目標"
@@ -22,11 +22,11 @@ Description: """
 * goalPhysicalActivity.goalDailyDistance 1..1 integer "每日運動距離目標"
 
 // 飲水目標
-* goalWater 1..1 BackboneElement "飲水目標"
+* goalWater 0..1 BackboneElement "飲水目標"
 * goalWater.goalDailyWaterIntake 1..1 integer "每次飲水量目標"
 
 // 飲食紀錄目標
-* goalDiet 1..1 BackboneElement "飲食紀錄目標"
+* goalDiet 0..1 BackboneElement "飲食紀錄目標"
 * goalDiet.goalGrains 1..1 integer "每日全穀雜糧類攝取份數目標"
 * goalDiet.goalVegetables 1..1 integer "每日蔬菜攝取份數目標"
 * goalDiet.goalProteinFoods 1..1 integer "每日豆魚肉蛋攝取份數目標"

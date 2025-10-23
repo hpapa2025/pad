@@ -3,7 +3,7 @@
 Instance: Patient-name
 InstanceOf: SearchParameter
 Usage: #definition
-* url = "https://www.hpa.gov.tw/pad/SearchParameter/Patient-name"
+* url = "https://fhir.hpa.gov.tw/pad/SearchParameter/Patient-name"
 * name = "PatientName"
 * status = #active
 * version = "0.1.0"
@@ -18,7 +18,7 @@ Usage: #definition
 Instance: Patient-identifier
 InstanceOf: SearchParameter
 Usage: #definition
-* url = "https://www.hpa.gov.tw/pad/SearchParameter/Patient-identifier"
+* url = "https://fhir.hpa.gov.tw/pad/SearchParameter/Patient-identifier"
 * name = "PatientIdentifier"
 * status = #active
 * version = "0.1.0"

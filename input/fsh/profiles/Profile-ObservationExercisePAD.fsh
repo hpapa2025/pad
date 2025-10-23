@@ -5,6 +5,7 @@ Title:          "單次運動紀錄-Observation Exercise PAD"
 Description:    "此單次運動紀錄-Observation Exercise PAD Profile說明PAD IG如何進一步定義FHIR的Observation Resource以呈現單次運動紀錄。"
 * status = #final
 * category 1..1
+* category.coding 1..1
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity
 * code.coding 1..1
 * code.coding = http://loinc.org#82287-4

@@ -5,6 +5,7 @@ Title:          "每日爬升樓層-Observation Daily Floors PAD"
 Description:    "此每日爬升樓層-Observation Daily Floors PAD Profile說明PAD IG如何進一步定義FHIR的Observation Resource以呈現每日爬升樓層的詳細記錄。"
 * status = #final
 * category 1..1
+* category.coding 1..1
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity
 * code.coding 1..1
 * code.coding = http://snomed.info/sct#129016000

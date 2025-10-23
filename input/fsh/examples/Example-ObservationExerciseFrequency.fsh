@@ -5,11 +5,11 @@ Description:    "依據運動頻率-Observation Exercise Frequency PAD Profile�
 Usage: #example
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity
-* code.coding = https://www.hpa.gov.tw/pad/CodeSystem/pad-metrics#exerciseFrequency
+* code.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics#exerciseFrequency
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
 * effectiveDateTime = "2025-08-30T14:20:00+08:00"
-* valueCodeableConcept.coding = https://www.hpa.gov.tw/pad/CodeSystem/exercise-frequency#3 "每週 3 次以上"
+* valueCodeableConcept.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/exercise-frequency#3 "每週 3 次以上"
 
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
