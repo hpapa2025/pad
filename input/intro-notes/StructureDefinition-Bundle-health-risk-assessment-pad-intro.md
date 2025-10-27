@@ -15,7 +15,7 @@ CDS Hook欄位 | 必選填 | 資料類型 | 說明
 `hookInstance` | 必填 | *string* | 用於此次呼叫CDS Hooks的唯一識別碼(UUID)
 `hook` | 必填 | *string* | 固定填"patient-view"
 `context` | 必填 | *object* | 因CDS Hooks規範須填userId、patientId。格式為 `[ResourceType]/[id]`
-`prefetch` | 必填 | *object* |  "patient": "Patient/{{context.patientId}}"  <br>  "conditions": "Condition?patient={{context.patientId}}&clinical-status=active&_sort=-_id" <br> "observations": "Observation?patient={{context.patientId}}&code=8302-2,29463-7,8280-0,85354-9,2093-3,2571-8,1558-6,72166-2"
+`prefetch` | 必填 | *object* |  `"patient": "Patient/{{context.patientId}}"`  <br>  `"conditions": "Condition?patient={{context.patientId}}&clinical-status=active&_sort=-_id"` <br> `"observations": "Observation?patient={{context.patientId}}&code=8302-2,29463-7,8280-0,85354-9,2093-3,2571-8,1558-6,72166-2"`
 {:.grid}
 
 
