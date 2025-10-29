@@ -11,6 +11,8 @@ Description:    "此臀圍-Observation Hip Line PAD Profile說明PAD IG如何進
 * valueQuantity 1..1
 * valueQuantity ^short = "臀圍及單位"
 * valueQuantity.value 1..1 MS
+* valueQuantity.code 1..1
+* valueQuantity.system 1..1
 * valueQuantity.code = #cm
 * valueQuantity.unit = "cm"
 * valueQuantity.value ^short = "臀圍"

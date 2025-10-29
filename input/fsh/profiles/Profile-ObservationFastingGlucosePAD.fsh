@@ -18,6 +18,8 @@ Description:    "此空腹血糖-Observation Fasting Glucose PAD Profile說明PA
 * valueQuantity.value 1..1 MS
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.code = #mg/dL
+* valueQuantity.code 1..1
+* valueQuantity.system 1..1
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity ^short = "空腹血糖及單位"
 * valueQuantity.value ^short = "空腹血糖"

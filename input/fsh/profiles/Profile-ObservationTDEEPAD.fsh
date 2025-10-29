@@ -10,7 +10,9 @@ Description:    "此每日總消耗熱量-Observation TDEE PAD Profile說明PAD 
 * effective[x] only dateTime
 * value[x] 1..
 * value[x] only Quantity
-* valueQuantity.value 1..1
+* valueQuantity.value 1..1 MS
+* valueQuantity.code 1..1
+* valueQuantity.system 1..1
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = #kcal/d
 * valueQuantity.unit = "kcal/d"

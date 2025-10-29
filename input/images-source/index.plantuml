@@ -9,18 +9,13 @@ LifeLineBorderColor black
 skinparam shadowing false
 hide footbox
 
-participant 醫院 #d1ebf1
+participant 民眾 #d1ebf1
 participant HPA  #D5E8D4
-醫院 -> HPA: 上傳身體活動與飲食申請證明書（Bundle PAD）
-醫院 -> HPA: 上傳身體活動與飲食申請證明相關文件（意即Bundle PAD所參照的附件）
-alt 上傳成功
-    醫院 -> HPA: 取得上傳成功訊息
-    alt 申請通過
-        醫院 -> HPA: 取得申請通過訊息
-    else 申請失敗
-        醫院 -> HPA: 取得申請未通過訊息
-    end
-else 上傳失敗
-    醫院 -> HPA: 取得上傳失敗訊息
-end
+民眾 -> HPA: 情境1：填寫自填調查表
+民眾 -> HPA: 情境2：上傳運動紀錄
+民眾 -> HPA: 情境3：上傳飲食紀錄
+民眾 -> HPA: 情境4：編輯身體數值
+民眾 -> HPA: 情境5：上傳飲水紀錄
+民眾 -> HPA: 情境6：風險評估
+民眾 -> HPA: 情境7：目標管理
 @enduml

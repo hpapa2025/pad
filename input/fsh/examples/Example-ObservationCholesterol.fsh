@@ -8,7 +8,7 @@ Usage: #example
 * performer.reference = "Patient/pat-min"
 * category[twcore] = http://terminology.hl7.org/CodeSystem/observation-category#laboratory "Laboratory"
 * code.coding[LOINCObservationCode] = http://loinc.org#2093-3 "Cholesterol [Mass/volume] in Serum or Plasma"
-* effectiveDateTime = "2025-08-30"
+* effectiveDateTime = "2025-08-30T23:30:00+08:00"
 * valueQuantity.value = 180
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"

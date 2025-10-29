@@ -12,20 +12,33 @@
 
 
 ### 專案範圍
+<div  style="padding-left: 10px;"> 
+<img class="figure-img img-responsive img-rounded center-block" src="scope.jpg" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 90%;">
+<p>PAD IG主要實作本平台民眾端之「管理身體活動與飲食紀錄」。</p>
+<img class="figure-img img-responsive img-rounded center-block" src="scope-3.jpg" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 70%;">
+</div>
+
+#### 本平台技術與應用服務架構
+
+<div  style="padding-left: 10px;"> 
+<img class="figure-img img-responsive img-rounded center-block" src="rfp.png" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<p>PAD IG主要實作資料整合層中「資料標準化模組」、「資料驗證模組」。</p>
+<img class="figure-img img-responsive img-rounded center-block" src="scope-2.jpg" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 65%;">
+</div>
 
 #### 使用案例(Use Case)
 <div  style="padding-left: 10px;"> 
-<p>本專案之主要使用者為民眾，民眾透過「身體活動與飲食平台」紀錄並管理個人健康資料。平台提供自填調查表、運動、飲食、身體數值、飲水、風險評估及目標管理等七大情境，協助使用者養成良好健康行為與追蹤個人變化。</br>
-平台所蒐集之資料可定期彙整並回傳至中央健康資料庫（國健署）進行後續統計與健康促進研究分析。</p>
-<img class="figure-img img-responsive img-rounded center-block" src="usecase.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 45%;"/>
+<p>本專案之主要使用者為民眾，民眾透過「身體活動與飲食平台」紀錄並管理個人健康資料。平台提供自填調查表、運動、飲食、身體數值、飲水、風險評估及目標管理等七大情境，協助使用者養成良好健康行為與追蹤個人變化。</p>
+<p>平台所蒐集之資料可定期彙整並回傳至中央健康資料庫（國健署）進行後續統計與健康促進研究分析。</p>
+<img class="figure-img img-responsive img-rounded center-block" src="usecase.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 40%;"/>
 </div>
 
 #### 循序圖
 
 
 作業流程如下：
-To Do...
-<!--div style="justify-content: center;display: flex;">{% include index.svg %}</div>
+
+<div style="justify-content: center;display: flex;">{% include index.svg %}</div>
 <!--For CI-Build> <img class="figure-img img-responsive img-rounded center-block" src="sequence.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 45%;"/> <-->
 
 ### 如何閱讀這個實作指引(IG)

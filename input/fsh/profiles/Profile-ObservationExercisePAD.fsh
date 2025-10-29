@@ -15,6 +15,10 @@ Description:    "此單次運動紀錄-Observation Exercise PAD Profile說明PAD
 * effective[x] 1..1
 * effective[x] only Period
 * effectivePeriod 1..1 MS
+* effectivePeriod.start 1..1 MS
+* effectivePeriod.start only DateTimePAD
+* effectivePeriod.end 1..1 MS
+* effectivePeriod.end only DateTimePAD
 * effectivePeriod ^short = "運動時間/日期(運動時長)"
 
 * component 5..5 MS
@@ -42,6 +46,8 @@ Description:    "此單次運動紀錄-Observation Exercise PAD Profile說明PAD
 * component[MVPA].valueQuantity.unit = "min"
 * component[MVPA].valueQuantity.system = "http://unitsofmeasure.org"
 * component[MVPA].valueQuantity.code = #min
+* component[MVPA].valueQuantity.system 1..1
+* component[MVPA].valueQuantity.code 1..1
 
 * component[Kcal] ^short = "預估消耗熱量"
 * component[Kcal].code = PADMetricsCodes#energyExpended
@@ -50,6 +56,8 @@ Description:    "此單次運動紀錄-Observation Exercise PAD Profile說明PAD
 * component[Kcal].valueQuantity.unit = "kcal"
 * component[Kcal].valueQuantity.system = "http://unitsofmeasure.org"
 * component[Kcal].valueQuantity.code = #kcal
+* component[Kcal].valueQuantity.system 1..1
+* component[Kcal].valueQuantity.code 1..1
 
 * component[Intensity] ^short = "運動強度"
 * component[Intensity].code = PADMetricsCodes#exerciseIntensity
@@ -58,6 +66,8 @@ Description:    "此單次運動紀錄-Observation Exercise PAD Profile說明PAD
 * component[Intensity].valueQuantity.unit = "METs"
 * component[Intensity].valueQuantity.system = "http://unitsofmeasure.org"
 * component[Intensity].valueQuantity.code = #[MET]
+* component[Intensity].valueQuantity.system 1..1
+* component[Intensity].valueQuantity.code 1..1
 
 * component[Source] ^short = "運動紀錄來源"
 * component[Source].code = PADMetricsCodes#exerciseRecordSource

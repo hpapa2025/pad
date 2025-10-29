@@ -8,7 +8,7 @@ Usage: #example
 * code.coding = http://snomed.info/sct#10904000
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
-* effectiveDateTime = "2025-08-30"
+* effectiveDateTime = "2025-08-30T23:30:00+08:00"
 * valueQuantity.value = 8
 * valueQuantity.unit = "hr"
 * valueQuantity.system = "http://unitsofmeasure.org"

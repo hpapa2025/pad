@@ -7,7 +7,7 @@ Usage: #example
 * category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
-* effectiveDateTime = "2025-08-30"
+* effectiveDateTime = "2025-08-30T23:30:00+08:00"
 * code.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics#bri
 * valueQuantity.value = 3.09
 

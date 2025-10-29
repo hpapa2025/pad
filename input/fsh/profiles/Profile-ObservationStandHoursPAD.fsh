@@ -13,12 +13,15 @@ Description:    "此站立時數-Observation Stand Hours PAD Profile說明PAD IG
 * effective[x] only dateTime
 * value[x] 1..1
 * value[x] only Quantity
-* valueQuantity ^short = "站立時數及單位"
+* valueQuantity ^short = "站立時數及單位。值必須介於 0 到 24"
 * valueQuantity.value 1..1 MS
+* valueQuantity.value obeys 0-24
 * valueQuantity.value ^short = "站立時數"
 * valueQuantity.code ^short = "單位"
 * valueQuantity.unit ^short = "單位"
+* valueQuantity.code 1..1
 * valueQuantity.code = #h
+* valueQuantity.system 1..1
 * valueQuantity.system = "http://unitsofmeasure.org"
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)

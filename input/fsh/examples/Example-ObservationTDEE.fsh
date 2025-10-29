@@ -8,7 +8,7 @@ Usage: #example
 * code.coding = http://loinc.org#41979-6 "Calories burned in 24 hour Calculated"
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
-* effectiveDateTime = "2025-08-30"
+* effectiveDateTime = "2025-08-30T23:30:00+08:00"
 * valueQuantity.value = 2538
 * valueQuantity.unit = "kcal/d"
 * valueQuantity.system = "http://unitsofmeasure.org"

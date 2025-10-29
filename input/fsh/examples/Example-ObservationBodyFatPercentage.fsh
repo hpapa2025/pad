@@ -8,7 +8,7 @@ Usage: #example
 * performer.reference = "Patient/pat-min"
 * category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * code.coding = http://loinc.org#41982-0 "Percentage of body fat Measured"
-* effectiveDateTime = "2025-08-30"
+* effectiveDateTime = "2025-08-30T23:30:00+08:00"
 * valueQuantity.value = 18
 * valueQuantity.unit = "%"
 * valueQuantity.system = "http://unitsofmeasure.org"

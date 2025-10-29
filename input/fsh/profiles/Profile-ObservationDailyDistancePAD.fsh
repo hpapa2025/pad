@@ -15,6 +15,8 @@ Description:    "此每日運動距離-Observation Daily Distance PAD Profile說
 * value[x] only Quantity
 * valueQuantity ^short = "每日運動距離"
 * valueQuantity.value 1..1 MS
+* valueQuantity.code 1..1
+* valueQuantity.system 1..1
 * valueQuantity.value ^short = "每日運動距離"
 * valueQuantity.code ^short = "單位"
 * valueQuantity.unit ^short = "單位"

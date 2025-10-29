@@ -8,8 +8,11 @@ Usage: #example
 * code.coding = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-metrics#sedentaryTime
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
-* effectiveDateTime = "2025-08-30"
-* valueInteger = 3
+* effectiveDateTime = "2025-08-30T23:30:00+08:00"
+* valueQuantity.value = 3
+* valueQuantity.unit = "hr"
+* valueQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity.code = #h
 
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -19,6 +22,6 @@ Usage: #example
     <p><b>狀態</b>：final</p>  
     <p><b>使用者</b>：<a href=\"Patient-pat-min.html\">Patient/pat-min</a></p>
     <p><b>紀錄者</b>：<a href=\"Patient-pat-min.html\">Patient/pat-min</a></p>
-    <p><b>紀錄日期</b>：2025-08-30</p>
+    <p><b>紀錄日期</b>：2025-08-30T23:30:00+08:00</p>
     <p><b>每日靜態/久坐時間</b>：3 hr</p>
 </div>"

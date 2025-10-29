@@ -14,6 +14,9 @@ Description:    "此體脂率-Observation Body Fat Percentage PAD Profile說明P
 * valueQuantity.value 1..1 MS
 * valueQuantity.code = #%
 * valueQuantity.unit = "%"
+* valueQuantity.code 1..1
+* valueQuantity.system 1..1
+* valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity ^short = "體脂率及單位"
 * valueQuantity.value ^short = "體脂率"
 * valueQuantity.code ^short = "單位"

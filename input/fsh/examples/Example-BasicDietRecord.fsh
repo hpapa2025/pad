@@ -5,7 +5,9 @@ Description:  "依據飲食紀錄-Basic Diet Record PAD Profile呈現飲食紀�
 Usage: #example
 * code = PADMetricsCodes#dietRecorde
 * subject.reference = "Patient/pat-min"
-* created = "2025-10-20"
+
+* extension[recorded].url = "https://fhir.hpa.gov.tw/pad/StructureDefinition/extension-nutritionintake-recorded"
+* extension[recorded].valueDateTime = "2025-10-20T08:30:00+08:00"
 
 * extension[mealType].url = "https://fhir.hpa.gov.tw/pad/StructureDefinition/extension-meal-type"
 * extension[mealType].valueCodeableConcept = https://fhir.hpa.gov.tw/pad/CodeSystem/pad-meal-type#breakfast

@@ -14,6 +14,9 @@ Description:    "此總膽固醇(含高密度膽固醇+低密度膽固醇)-Obser
 * valueQuantity.value 1..1
 * valueQuantity.code = #mg/dL
 * valueQuantity.unit = "mg/dL"
+* valueQuantity.code 1..1
+* valueQuantity.system 1..1
+* valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity ^short = "總膽固醇及單位"
 * valueQuantity.value ^short = "總膽固醇"
 * valueQuantity.code ^short = "單位"
@@ -36,6 +39,8 @@ Description:    "此總膽固醇(含高密度膽固醇+低密度膽固醇)-Obser
 * component[HDL].valueQuantity.value 1..1 MS
 * component[HDL].valueQuantity.value ^short = "高密度膽固醇(HDL)測量值"
 * component[HDL].valueQuantity.unit = "mg/dL"
+* component[HDL].valueQuantity.system 1..1
+* component[HDL].valueQuantity.code 1..1
 * component[HDL].valueQuantity.system = "http://unitsofmeasure.org"
 * component[HDL].valueQuantity.code = #mg/dL
 * component[HDL].valueQuantity.unit ^short = "單位"
@@ -45,6 +50,8 @@ Description:    "此總膽固醇(含高密度膽固醇+低密度膽固醇)-Obser
 * component[LDL].value[x] 1..1
 * component[LDL].value[x] only Quantity
 * component[LDL].valueQuantity.value 1..1 MS
+* component[LDL].valueQuantity.system 1..1
+* component[LDL].valueQuantity.code 1..1
 * component[LDL].valueQuantity.value ^short = "低密度膽固醇(LDL)測量值"
 * component[LDL].valueQuantity.unit = "mg/dL"
 * component[LDL].valueQuantity.system = "http://unitsofmeasure.org"

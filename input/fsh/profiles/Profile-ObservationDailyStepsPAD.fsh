@@ -15,6 +15,8 @@ Description:    "此每日步數-Observation Daily Steps PAD Profile說明PAD IG
 * value[x] only Quantity
 * valueQuantity ^short = "每日步數及單位"
 * valueQuantity.value 1..1 MS
+* valueQuantity.code 1..1
+* valueQuantity.system 1..1
 * valueQuantity.value ^short = "每日步數"
 * valueQuantity.code ^short = "單位"
 * valueQuantity.unit ^short = "單位"

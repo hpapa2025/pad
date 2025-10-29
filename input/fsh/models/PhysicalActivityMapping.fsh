@@ -9,7 +9,7 @@ Target: "https://fhir.hpa.gov.tw/pad/"
 * physActRecord -> "(身體活動紀錄)"
 * physActRecord.dailySteps -> "entry:ObservationDailyStepsPAD.where(code.coding.code = '41950-7' and code.coding.system='http://loinc.org').valueQuantity.value"
 * physActRecord.dailyFloors -> "entry:ObservationDailyFloorsPAD.where(code.coding.code = '129016000' and code.coding.system='http://snomed.info/sct').valueQuantity.value"
-* physActRecord.dailyDistance -> "entry:ObservationDailyDistancePAD.where(code.coding.code = '93849-8' and code.coding.system='http://loinc.org').valueQuantity.value"
+* physActRecord.dailyDistance -> "entry:ObservationDailyDistancePAD.where(code.coding.code = '246132006' and code.coding.system='http://loinc.org').valueQuantity.value"
 * physActRecord.standHours -> "entry:ObservationStandHoursPAD.where(code.coding.code = '10904000' and code.coding.system='http://snomed.info/sct').valueQuantity.value"
 
 // 生理檢測

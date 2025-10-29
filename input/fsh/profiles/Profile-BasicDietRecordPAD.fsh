@@ -7,7 +7,6 @@ Description:    "此飲食紀錄-Basic Diet Record PAD Profile說明PAD IG如何
 * code = PADMetricsCodes#dietRecorde
 * subject 1..1
 * subject only Reference(PatientPAD)
-* created 1..1
 
 * extension 1..*
 * extension ^slicing.discriminator.type = #value
@@ -20,7 +19,8 @@ Description:    "此飲食紀錄-Basic Diet Record PAD Profile說明PAD IG如何
 	NutritionIntakeAmount named intake 1..1 and
 	NutritionProductCode named name 1..1 and
 	NutritionProductEnergy named calories 1..1 and
-	NutritionProductNutrient named nutrient 1..1
+	NutritionProductNutrient named nutrient 1..1 and
+    NutritionIntakeRecorded named recorded 1..1
 
 * extension[mealType] ^short = "餐次。breakfast：早餐｜lunch：午餐｜dinner：晚餐｜snack：點心｜fruit：水果"
 * extension[img] ^short = "食物照片"
@@ -28,8 +28,8 @@ Description:    "此飲食紀錄-Basic Diet Record PAD Profile說明PAD IG如何
 * extension[name] ^short = "食物名稱"
 * extension[calories] ^short = "總熱量攝取"
 * extension[nutrient] ^short = "六大類食物攝取份數與營養素含量"
+* extension[recorded] ^short = "記錄時間"
 * identifier ^short = "商品條碼"
-* created ^short = "記錄時間"
 
 
 Extension: MealType
@@ -166,6 +166,16 @@ Context: Basic
 * valueQuantity.value 1..1
 * valueQuantity.unit 1..1
 * valueQuantity.unit ^short = "單位。份 | 杯 | 個 | g | ml"
+
+Extension: NutritionIntakeRecorded
+Id: extension-nutritionintake-recorded
+Description: "記錄時間(NutritionIntake.recorded)"
+Context: Basic
+* . ^definition = "記錄時間"
+* value[x] 1..1
+* value[x] only dateTime
+* valueDateTime ^short = "記錄時間"
+* valueDateTime only DateTimePAD
 
 
 /*Extension: NutritionProductIdentifier

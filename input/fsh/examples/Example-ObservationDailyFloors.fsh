@@ -7,7 +7,7 @@ Usage: #example
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity "Activity"
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
-* effectiveDateTime = "2025-08-30"
+* effectiveDateTime = "2025-08-30T23:30:00+08:00"
 * code.coding = http://snomed.info/sct#129016000 "Climbing stairs"
 * valueQuantity.value = 6
 * valueQuantity.unit = "樓/天"

@@ -6,7 +6,7 @@ Usage: #example
 * status = #final
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
-* effectiveDateTime = "2025-08-30"
+* effectiveDateTime = "2025-08-30T23:30:00+08:00"
 * code.coding[BPCode] = http://loinc.org#85354-9 "Blood pressure panel with all children optional"
 * component[SystolicBP].code = http://loinc.org#8480-6 "Systolic blood pressure"
 * component[SystolicBP].valueQuantity = 118 'mm[Hg]' "mmHg"

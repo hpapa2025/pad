@@ -7,7 +7,7 @@ Usage: #example
 * category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
-* effectiveDateTime = "2025-08-30"
+* effectiveDateTime = "2025-08-30T23:30:00+08:00"
 * code.coding = http://snomed.info/sct#284472007 "Hip circumference (observable entity)"
 * valueQuantity.value = 95
 * valueQuantity.unit = "cm"

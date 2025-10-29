@@ -16,6 +16,8 @@ Description:    "此三酸甘油脂-Observation Triglycerides PAD Profile說明P
 * valueQuantity.value 1..1 MS
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.code = #mg/dL
+* valueQuantity.code 1..1
+* valueQuantity.system 1..1
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity ^short = "三酸甘油脂及單位"
 * valueQuantity.value ^short = "三酸甘油脂"

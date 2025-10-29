@@ -8,7 +8,7 @@ Usage: #example
 * code.coding = http://loinc.org#93038-8
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
-* effectiveDateTime = "2025-08-30"
+* effectiveDateTime = "2025-08-30T23:30:00+08:00"
 * valueInteger = 2
 
 * text.status = #generated
