@@ -38,8 +38,9 @@
 
 作業流程如下：
 
-<div style="justify-content: center;display: flex;">{% include index.svg %}</div>
-<!--For CI-Build> <img class="figure-img img-responsive img-rounded center-block" src="sequence.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 45%;"/> <-->
+<!-- <div style="justify-content: center;display: flex;">{% include index.svg %}</div>
+<!--For CI-Build>  <-->
+<img class="figure-img img-responsive img-rounded center-block" src="sequence.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 45%;"/>
 
 ### 如何閱讀這個實作指引(IG)
 <div  style="padding-left: 10px;"> 
