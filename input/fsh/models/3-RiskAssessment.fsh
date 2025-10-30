@@ -1,8 +1,8 @@
 Logical: HealthRiskAssessmentModel
 Id: HealthRiskAssessmentModel
-Title: "情境6-健康風險評估之資料模型"
+Title: "情境3-健康風險評估之資料模型"
 Description: """
-本邏輯模型用於描述使用者之健康風險評估的資料結構。為利實作者理解與應用，資料欄位採通俗命名，實作時可參考「Mappings」功能頁籤，對應至實際所使用之Profiles與資料項目。亦可參照[視覺化邏輯模型圖](vision-6.html)進行欄位對照與整體結構掌握。
+本邏輯模型用於描述使用者之健康風險評估的資料結構。為利實作者理解與應用，資料欄位採通俗命名，實作時可參考「Mappings」功能頁籤，對應至實際所使用之Profiles與資料項目。亦可參照[視覺化邏輯模型圖](vision-3.html)進行欄位對照與整體結構掌握。
 """
 * ^version = "0.1.0"
 

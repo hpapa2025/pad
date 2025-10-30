@@ -25,3 +25,8 @@ Description:    "此站立時數-Observation Stand Hours PAD Profile說明PAD IG
 * valueQuantity.system = "http://unitsofmeasure.org"
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)
+
+Invariant:   0-24
+Description: "必須介於 0 到 24"
+Expression:  "$this >= 0 and $this <= 24"
+Severity:    #error

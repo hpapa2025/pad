@@ -8,8 +8,8 @@ Usage: #example
 * code.coding = http://loinc.org#82287-4 "Physical activity panel"
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
-* effectivePeriod.start = "2025-08-30T13:00:00+08:00"
-* effectivePeriod.end = "2025-08-30T15:00:00+08:00"
+* effectivePeriod.start = "2025-10-30T13:00:00+08:00"
+* effectivePeriod.end = "2025-10-30T15:00:00+08:00"
 
 * component[Type].valueCodeableConcept = ExerciseTypeCodes#volleyball
 
@@ -38,8 +38,8 @@ Usage: #example
     <p><b>狀態</b>：final</p>  
     <p><b>使用者</b>：<a href=\"Patient-pat-min.html\">Patient/pat-min</a></p>
     <p><b>紀錄者</b>：<a href=\"Patient-pat-min.html\">Patient/pat-min</a></p>
-    <p><b>運動日期/時間(起)</b>：2025-08-30 13:00（UTC+08:00）</p>
-    <p><b>運動日期/時間(訖)</b>：2025-08-30 15:00（UTC+08:00）</p>
+    <p><b>運動日期/時間(起)</b>：2025-10-30 13:00（UTC+08:00）</p>
+    <p><b>運動日期/時間(訖)</b>：2025-10-30 15:00（UTC+08:00）</p>
     <p><b>運動類型</b>：排球</p>
     <p><b>MVPA分鐘數</b>：120 min</p>
     <p><b>預估消耗熱量</b>：126 kcal</p>

@@ -5,7 +5,7 @@ Id:          icd-10-cm-hbp
 Title:       "臺灣健保署2023年中文版ICD 10 CM-高血壓值集"
 Description: "臺灣健保署2023年中文版ICD 10 CM-高血壓值集"
 * ^experimental = false
-* ^date = "2025-08-30"
+* ^date = "2025-10-30"
 * ^version = "0.1.0"
 
 * $icd-10-cm#H35.03  "高血壓性視網膜病變"

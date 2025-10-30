@@ -1,28 +1,16 @@
-### 自填調查表之Bundle架構(Bundle Health Self Assessment PAD)
+### 運動紀錄之Bundle架構(Bundle Physical Activity PAD)
 <div  style="padding-left: 10px;"> 
-自填調查表透過Bundle打包以下資料(相關對應表可以參照自填調查表之資料模型中的<a href="StructureDefinition-HealthSelfAssessmentModel.html">Mappings</a>)：
+運動紀錄透過Bundle打包以下資料(相關對應表可以參照運動紀錄之資料模型中的<a href="StructureDefinition-PhysicalActivityModel.html">Mappings</a>)：
 <ul>
-	<li>自填調查表-Bundle Health Self Assessment PAD</li>
-	<li>使用者資訊-Patient PAD</li>
-	<li>身高-Observation Body Height PAD</li>
-	<li>體重-Observation Body Weight PAD</li>
-	<li>腰圍-Observation Waist PAD</li>
-	<li>身體質量指數-Observation BMI PAD</li>
-	<li>每週外食頻率-Observation Eating Out Frequency PAD</li>
-	<li>飲食偏好-Observation Dietary Preferences PAD</li>
-	<li>職業-Observation Occupation PAD</li>
-	<li>每日靜態/久坐時間-Observation Sedentary Time PAD</li>
-	<li>運動頻率-Observation Exercise Frequency PAD</li>
-	<li>中高強度活動累計-Observation Exercise Amount PAD</li>
-	<li>吸菸習慣-Observation Smoking Status PAD</li>
-	<li>癌症-Condition Cancer PAD</li>
-	<li>心血管疾病-Condition Cardiovascular Disease PAD</li>
-	<li>糖尿病-Condition Diabetes Mellitus PAD</li>
-	<li>高血壓-Condition High Blood Pressure PAD</li>
-	<li>高血脂-Condition Hyperlipidemia PAD</li>
-	<li>其他慢性病-Condition Chronic Disease PAD</li>
-	<li>慢性疾病家族史-FamilyMemberHistory PAD</li>
-	<li>健康目標-Goal Health PAD</li>
+	<li>運動紀錄-Bundle Physical Activity PAD</li>
+	<li>每日步數-Observation Daily Steps PAD</li>
+	<li>每日爬升樓層-Observation Daily Floors PAD</li>
+	<li>每日運動距離-Observation Daily Distance PAD</li>
+	<li>心率-Observation Heart Rate PAD</li>
+	<li>睡眠時數-Observation Sleep Hours PAD</li>
+	<li>壓力指數-Observation Stress Index PAD</li>
+	<li>站立時數-Observation Stand Hours PAD</li>
+	<li>單次運動紀錄-Observation Exercise PAD</li>
 </ul>
 </div>
 

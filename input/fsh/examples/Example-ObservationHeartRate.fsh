@@ -7,7 +7,7 @@ Usage: #example
 * category[VSCat] = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs "Vital Signs"
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
-* effectiveDateTime = "2025-08-30T14:20:00+08:00"
+* effectiveDateTime = "2025-10-30T14:20:00+08:00"
 * code.coding[HeartRateCode] = http://loinc.org#8867-4 "Heart rate"
 * valueQuantity.value = 72
 * valueQuantity.unit = "下/min"
@@ -22,6 +22,6 @@ Usage: #example
     <p><b>狀態</b>：final</p>  
     <p><b>使用者</b>：<a href=\"Patient-pat-min.html\">Patient/pat-min</a></p>
     <p><b>紀錄者</b>：<a href=\"Patient-pat-min.html\">Patient/pat-min</a></p>
-    <p><b>紀錄日期/時間</b>：2025-08-30 14:20（UTC+08:00）</p>
+    <p><b>紀錄日期/時間</b>：2025-10-30 14:20（UTC+08:00）</p>
     <p><b>心率測量值</b>：72 下/min</p>
 </div>"

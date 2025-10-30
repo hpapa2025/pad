@@ -32,4 +32,11 @@ Usage: #example
     <p><b>出生日期</b>：2001-01-01</p>
     <p><b>年齡</b>：35 歲</p>
     <p><b>居住縣市</b>：台北市</p>
+	<blockquote>
+		<p>
+			<b>識別碼型別</b>：National Person Identifier <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">Identifier Type Codes</a>#NNxxx） </span>
+			<br />
+			<b>身分證字號（official）</b>：A123456789 （http://www.moi.gov.tw）
+		</p>
+	</blockquote>
 </div>"

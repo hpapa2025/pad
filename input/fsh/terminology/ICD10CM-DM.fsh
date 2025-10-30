@@ -3,7 +3,7 @@ Id:          icd-10-cm-dm
 Title:       "臺灣健保署2023年中文版ICD 10 CM-糖尿病值集"
 Description: "臺灣健保署2023年中文版ICD 10 CM-糖尿病值集"
 * ^experimental = false
-* ^date = "2025-08-30"
+* ^date = "2025-10-30"
 * ^version = "0.1.0"
 
 /* * $icd-10-cm#E08 "起因於潛在病的糖尿病" */

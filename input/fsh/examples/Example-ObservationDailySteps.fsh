@@ -7,7 +7,7 @@ Usage: #example
 * category = http://terminology.hl7.org/CodeSystem/observation-category#activity "Activity"
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
-* effectiveDateTime = "2025-08-30T23:30:00+08:00"
+* effectiveDateTime = "2025-10-30T23:30:00+08:00"
 * code.coding = http://loinc.org#41950-7 "Number of steps in 24 hour Measured"
 * valueQuantity.value = 7500
 * valueQuantity.unit = "步/天"
@@ -22,6 +22,6 @@ Usage: #example
     <p><b>狀態</b>：final</p>  
     <p><b>使用者</b>：<a href=\"Patient-pat-min.html\">Patient/pat-min</a></p>
     <p><b>紀錄者</b>：<a href=\"Patient-pat-min.html\">Patient/pat-min</a></p>
-    <p><b>紀錄日期</b>：2025-08-30</p>
+    <p><b>紀錄日期</b>：2025-10-30</p>
     <p><b>步數</b>：7500 步/天</p>
 </div>"

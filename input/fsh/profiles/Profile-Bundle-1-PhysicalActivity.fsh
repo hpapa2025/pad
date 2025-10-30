@@ -1,7 +1,7 @@
 Profile:        BundlePhysicalActivity
 Parent:         TWCoreBundle
 Id:             Bundle-physical-activity-pad
-Title:          "運動紀錄-Bundle Physical Activity PAD"
+Title:          "情境1-運動紀錄-Bundle Physical Activity PAD"
 Description:    "此運動紀錄-Bundle Physical Activity PAD Profile說明本IG如何進一步定義資料交換基本單位(TW Core Bundle) Profile以呈現運動紀錄之內容"
 * type = #transaction
 * entry 0..* MS
@@ -16,7 +16,12 @@ Description:    "此運動紀錄-Bundle Physical Activity PAD Profile說明本IG
 	observation-sleep-hours 0..1 MS and
 	observation-stress 0..* MS and
 	observation-stand 0..1 MS and
-	observation-exercise 0..* MS
+	observation-exercise 0..* MS and
+	patient 0..1 MS
+
+* entry[patient] ^short = "使用者基本資訊"
+* entry[patient].resource 1..1 MS
+* entry[patient].resource only PatientPAD
 	
 * entry[observation-steps] ^short = "每日步數"
 * entry[observation-steps].resource 1..1 MS

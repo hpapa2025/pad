@@ -1,7 +1,7 @@
 Profile:        BundleHealthRiskAssessment
 Parent:         TWCoreBundle
 Id:             Bundle-health-risk-assessment-pad
-Title:          "健康風險評估-Bundle Health Risk Assessment PAD"
+Title:          "情境3-健康風險評估-Bundle Health Risk Assessment PAD"
 Description:    "此健康風險評估-Bundle Health Risk Assessment PAD Profile說明本IG如何進一步定義資料交換基本單位(TW Core Bundle) Profile以呈現健康風險評估之內容"
 * type = #collection
 * entry 11..* MS
@@ -9,7 +9,6 @@ Description:    "此健康風險評估-Bundle Health Risk Assessment PAD Profile
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #closed
 * entry contains
-	patient 1..1 MS and
 	observation-height 1..1 MS and
 	observation-weight 1..1 MS and
 	observation-waist 1..1 MS and
@@ -19,7 +18,8 @@ Description:    "此健康風險評估-Bundle Health Risk Assessment PAD Profile
 	observation-fg 1..1 MS and
 	observation-smoking 1..1 MS and
 	condition-dm 1..1 MS and
-	condition-hbp 1..1 MS
+	condition-hbp 1..1 MS and
+	patient 0..1 MS
 
 * entry[patient] ^short = "使用者基本資訊"
 * entry[patient].resource 1..1 MS

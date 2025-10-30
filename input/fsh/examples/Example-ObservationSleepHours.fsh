@@ -8,7 +8,7 @@ Usage: #example
 * code.coding = http://loinc.org#93832-4 "Sleep duration"
 * subject.reference = "Patient/pat-min"
 * performer.reference = "Patient/pat-min"
-* effectiveDateTime = "2025-08-30T23:30:00+08:00"
+* effectiveDateTime = "2025-10-30T23:30:00+08:00"
 * valueQuantity.value = 8
 * valueQuantity.unit = "hr"
 * valueQuantity.system = "http://unitsofmeasure.org"
@@ -22,6 +22,6 @@ Usage: #example
     <p><b>狀態</b>：final</p>  
     <p><b>使用者</b>：<a href=\"Patient-pat-min.html\">Patient/pat-min</a></p>
     <p><b>紀錄者</b>：<a href=\"Patient-pat-min.html\">Patient/pat-min</a></p>
-    <p><b>紀錄日期</b>：2025-08-30</p>
+    <p><b>紀錄日期</b>：2025-10-30</p>
     <p><b>睡眠時數</b>：8 hr</p>
 </div>"

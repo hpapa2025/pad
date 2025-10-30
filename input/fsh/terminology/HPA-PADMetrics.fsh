@@ -6,14 +6,6 @@ Description:    "HPA-身體活動與飲食指標"
 * ^caseSensitive = true
 * ^content = #complete
 * ^experimental = false
-* #eatingOutFrequency "每週外食頻率" "每週外食頻率"
-* #dietaryPreferences "飲食偏好" "飲食偏好"
-* #sedentaryTime "每日靜態/久坐時間" "3個月內每日靜態/久坐時間(不含睡覺)"
-* #exerciseFrequency "運動頻率" "3個月內運動頻率(依運動333定義)"
-* #exerciseAmount "中高強度活動累計" "3個月內每天平均進行中高強度身體活動之累計"
-* #waterIntake "每次攝取水量" "每次攝取水量"
-* #bri "BRI" "Body Roundness Index"
-* #bmr "BMR" "Basal Metabolic Rate"
 * #stressIndex "壓力指數" "壓力指數"
 * #steps "步數" "步數"
 * #exerciseType "運動類型" "運動類型"

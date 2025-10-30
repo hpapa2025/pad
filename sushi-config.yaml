@@ -67,19 +67,19 @@ pages:
   vision.md:
     title: 視覺化邏輯模型
   vision-1.md:
-    title: 視覺化邏輯模型:情境1-自填調查表
+    title: 視覺化邏輯模型:情境1-運動紀錄
   vision-2.md:
-    title: 視覺化邏輯模型:情境2-運動紀錄
+    title: 視覺化邏輯模型:情境2-飲食紀錄
   vision-3.md:
-    title: 視覺化邏輯模型:情境3-飲食紀錄
-  vision-4.md:
-    title: 視覺化邏輯模型:情境4-身體數值
-  vision-5.md:
-    title: 視覺化邏輯模型:情境5-飲水紀錄
-  vision-6.md:
-    title: 視覺化邏輯模型:情境6-風險評估
-  vision-7.md:
-    title: 視覺化邏輯模型:情境7-目標管理
+    title: 視覺化邏輯模型:情境3-風險評估
+  # vision-4.md:
+  #   title: 視覺化邏輯模型:情境4-自填調查表
+  # vision-5.md:
+  #   title: 視覺化邏輯模型:情境5-飲水紀錄
+  # vision-6.md:
+  #   title: 視覺化邏輯模型:情境6-風險評估
+  # vision-7.md:
+  #   title: 視覺化邏輯模型:情境7-目標管理
 #
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
