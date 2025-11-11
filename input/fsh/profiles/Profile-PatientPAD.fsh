@@ -15,7 +15,7 @@ Description:    "此使用者資訊-Patient PAD Profile說明PAD IG如何進一�
 * address.postalCode.extension[PostalCode] 1..
 * address.postalCode.extension[PostalCode].valueCodeableConcept 1..
 * address.postalCode.extension[PostalCode].valueCodeableConcept.coding[PostalCode3] 1..1
-* identifier[idCardNumber] 1..1
+* identifier[idCardNumber] 0..1
 
 * name obeys pat-name
 * name[usual] ^short = "姓名"

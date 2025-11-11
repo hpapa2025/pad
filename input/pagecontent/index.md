@@ -12,11 +12,6 @@
 
 
 ### 專案範圍
-<div  style="padding-left: 10px;"> 
-<img class="figure-img img-responsive img-rounded center-block" src="scope.jpg" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 90%;">
-<p>PAD IG主要實作本平台民眾端之「管理身體活動與飲食紀錄」。</p>
-<img class="figure-img img-responsive img-rounded center-block" src="scope-3.jpg" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 70%;">
-</div>
 
 #### 本平台技術與應用服務架構
 
@@ -24,6 +19,13 @@
 <img class="figure-img img-responsive img-rounded center-block" src="rfp.png" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <p>PAD IG主要實作資料整合層中「資料標準化模組」、「資料驗證模組」。</p>
 <img class="figure-img img-responsive img-rounded center-block" src="scope-2.jpg" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 65%;">
+</div>
+
+
+<div  style="padding-left: 10px;"> 
+<img class="figure-img img-responsive img-rounded center-block" src="scope.jpg" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 90%;">
+<p>PAD IG主要實作本平台民眾端之「管理身體活動與飲食紀錄」。</p>
+<img class="figure-img img-responsive img-rounded center-block" src="scope-3.jpg" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 70%;">
 </div>
 
 #### 使用案例(Use Case)
@@ -37,11 +39,9 @@
 
 
 作業流程如下：
-<div  style="padding-left: 10px;"> 
-<!-- <div style="justify-content: center;display: flex;">{% include index.svg %}</div>
-<!--For CI-Build>  <-->
-<img class="figure-img img-responsive img-rounded center-block" src="sequence.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 25%;"/>
-</div>
+
+<div style="justify-content: center;display: flex;">{% include index.svg %}</div>
+<!--For CI-Build> <img class="figure-img img-responsive img-rounded center-block" src="sequence.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 45%;"/> <-->
 
 ### 如何閱讀這個實作指引(IG)
 <div  style="padding-left: 10px;"> 
