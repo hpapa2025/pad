@@ -17,6 +17,15 @@
 
 <div  style="padding-left: 10px;"> 
 <img class="figure-img img-responsive img-rounded center-block" src="rfp.png" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<p>本平台建置主要工作項目包括資料整合規範、核心服務功能、應用服務及整合應用設計，技術與應用服務架構，整體設計如下圖所示，包含：</p>
+<ul>
+	<li><strong>整合應用層</strong>：開放 API、第三方應用介接、推播訊息與跨機關合作介面，推動健康行為服務與資料互通。</li>
+	<li><strong>應用服務層</strong>：提供個人化介面、任務、健康地圖、獎勵管理、產業結盟與健康積分核銷等應用服務。</li>
+	<li><strong>核心服務層</strong>：以 CDS Hooks 為基礎，建構激勵回饋規則與 AI 個人化健康管理與風險預警模組。</li>
+	<li><strong>資料整合層</strong>：依據 FHIR 標準進行資料標準化、驗證、授權與身份認證管理，並具備系統日誌監理與統計功能。</li>
+	<li><strong>資料來源層</strong>：整合 Apple Health、Health Connect、AI 資料來源與第三方應用程式。</li>
+</ul>
+<p>上述層級架構與服務整合，支援健康任務推動、個人化建議與獎勵回饋，促進民眾持續參與健康生活。</p>
 <p>PAD IG主要實作資料整合層中「資料標準化模組」、「資料驗證模組」。</p>
 <img class="figure-img img-responsive img-rounded center-block" src="scope-2.jpg" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 65%;">
 </div>
@@ -40,8 +49,8 @@
 
 作業流程如下：
 
-<div style="justify-content: center;display: flex;">{% include index.svg %}</div>
-<!--For CI-Build> <img class="figure-img img-responsive img-rounded center-block" src="sequence.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 45%;"/> <-->
+<!--For CI-Build> <div style="justify-content: center;display: flex;">{% include index.svg %}</div> <-->
+<img class="figure-img img-responsive img-rounded center-block" src="sequence.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 45%;"/>
 
 ### 如何閱讀這個實作指引(IG)
 <div  style="padding-left: 10px;"> 
