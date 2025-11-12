@@ -46,6 +46,9 @@
 
 #### 循序圖
 作業流程如下：
+1. 民眾上傳運動紀錄（運動紀錄-Bundle Physical Activity PAD）
+2. 民眾上傳飲食紀錄（飲食紀錄-Bundle Diet Record PAD）
+3. 民眾進行健康風險評估（健康風險評估-Bundle Health Risk Assessment PAD）
 <!--For CI-Build> <div style="justify-content: center;display: flex;">{% include index.svg %}</div> <-->
 <img class="figure-img img-responsive img-rounded center-block" src="sequence.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 25%;">
 <div style="clear:both;"></div>
