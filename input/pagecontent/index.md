@@ -13,8 +13,6 @@
 
 ### 專案範圍
 
-#### 本平台技術與應用服務架構
-
 <div  style="padding-left: 10px;"> 
 <img class="figure-img img-responsive img-rounded center-block" src="rfp.png" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <p>本平台建置主要工作項目包括資料整合規範、核心服務功能、應用服務及整合應用設計，技術與應用服務架構，整體設計如下圖所示，包含：</p>
@@ -27,15 +25,17 @@
 </ul>
 <p>上述層級架構與服務整合，支援健康任務推動、個人化建議與獎勵回饋，促進民眾持續參與健康生活。</p>
 <p>PAD IG主要實作資料整合層中「資料標準化模組」、「資料驗證模組」。</p>
+
 <img class="figure-img img-responsive img-rounded center-block" src="scope-2.jpg" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 65%;">
+<p>使用者在APP輸入身體活動與飲食紀錄，經SMART on FHIR授權後，將紀錄寫入FHIR Server。PAD IG定義了所需的FHIR規範定義（StructureDefinition、ValueSet、CodeSystem等），確保各系統以一致格式交換資料。</p>
 </div>
 
 
-<div  style="padding-left: 10px;"> 
+<!-- <div  style="padding-left: 10px;"> 
 <img class="figure-img img-responsive img-rounded center-block" src="scope.jpg" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 90%;">
 <p>PAD IG主要實作本平台民眾端之「管理身體活動與飲食紀錄」。</p>
 <img class="figure-img img-responsive img-rounded center-block" src="scope-3.jpg" alt="平台技術與應用服務架構" style="display: block;margin-left: auto;margin-right: auto;width: 70%;">
-</div>
+</div> -->
 
 #### 使用案例(Use Case)
 <div  style="padding-left: 10px;"> 
@@ -50,7 +50,8 @@
 作業流程如下：
 
 <!--For CI-Build> <div style="justify-content: center;display: flex;">{% include index.svg %}</div> <-->
-<img class="figure-img img-responsive img-rounded center-block" src="sequence.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 45%;"/>
+<img class="figure-img img-responsive img-rounded center-block" src="sequence.png" alt="IG use case" style="display: block;margin-left: auto;margin-right: auto;width: 35%;"/>
+<div style="clear:both;"></div>
 
 ### 如何閱讀這個實作指引(IG)
 <div  style="padding-left: 10px;"> 
