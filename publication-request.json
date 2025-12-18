@@ -1,0 +1,15 @@
+{
+  "package-id": "tw.gov.mohw.hpa.pad",
+  "version": "0.1.0",
+  "path": "https://hpacorepa.hpa.gov.tw/pad/0.1.0",
+  "mode": "milestone",
+  "status": "trial-use",
+  "sequence": "STU1",
+  "desc": "第一個發布版本",
+  "descmd": "第一個發布版本",
+  "first" : true,
+  "title" : "身體活動與飲食實作指引",
+  "ci-build" : "https://build.fhir.org/ig/hpapa2025/pad",
+  "category" : "Public Health",
+  "introduction" : "身體活動與飲食實作指引(Physical Activity and Diet Implementation Guide，PAD IG)"
+}

@@ -1,0 +1,17 @@
+@startuml
+autonumber
+
+skinparam sequence {
+ArrowColor gray
+ActorBorderColor gray
+LifeLineBorderColor black
+}
+skinparam shadowing false
+hide footbox
+
+participant 民眾 #d1ebf1
+participant HPA  #D5E8D4
+民眾 -> HPA: 情境1：上傳運動紀錄
+民眾 -> HPA: 情境2：上傳飲食紀錄
+民眾 -> HPA: 情境3：風險評估
+@enduml

@@ -1,0 +1,25 @@
+Logical: DietRecordModel
+Id: DietRecordModel
+Title: "情境2-飲食紀錄之資料模型"
+Description: """
+本邏輯模型用於描述使用者之飲食紀錄的資料結構，協助國民健康署推動以資料驅動的健康促進服務。為利實作者理解與應用，資料欄位採通俗命名，實作時可參考「Mappings」功能頁籤，對應至實際所使用之Profiles與資料項目。亦可參照[視覺化邏輯模型圖](vision-2.html)進行欄位對照與整體結構掌握。
+"""
+* ^version = "0.1.0"
+
+* dietRecords 0..* BackboneElement "飲食紀錄"
+* dietRecords.mealType 1..1 CodeableConcept "餐次"
+* dietRecords.intakeServings 1..1 integer "攝取份數"
+* dietRecords.foodName 1..1 string "食物名稱"
+* dietRecords.foodImg 0..1 base64Binary "食物照片"
+* dietRecords.productBarcode 0..1 integer "食物條碼"
+* dietRecords.recordTime 1..1 dateTime "紀錄時間"
+* dietRecords.grains 0..1 integer "全穀雜糧類"
+* dietRecords.proteinFoods 0..1 integer "豆魚肉蛋類"
+* dietRecords.dairy 0..1 integer "乳品類"
+* dietRecords.vegetable 0..1 integer "蔬菜類"
+* dietRecords.fruits 0..1 integer "水果類"
+* dietRecords.oilsAndNuts 0..1 integer "堅果種子類"
+* dietRecords.protein 1..1 integer "蛋白質" 
+* dietRecords.fats 1..1 integer "脂肪"
+* dietRecords.carbohydrate 1..1 integer "碳水化合物"
+* dietRecords.calories 1..1 integer "熱量攝取"

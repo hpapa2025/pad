@@ -1,0 +1,44 @@
+{
+    "cards": [
+        {
+            "summary": "47%",
+            "indicator": "critical",
+            "source": {
+                "label": "CHD",
+                "url": "https://cdrc.hpa.gov.tw/health-guide.html"
+            }
+        },
+        {
+            "summary": "54%",
+            "indicator": "critical",
+            "source": {
+                "label": "Stroke",
+                "url": "https://cdrc.hpa.gov.tw/health-guide.html"
+            }
+        },
+        {
+            "summary": "您本身已有糖尿病，請多注意血糖變化。",
+            "indicator": "info",
+            "source": {
+                "label": "Diabetes",
+                "url": "https://cdrc.hpa.gov.tw/health-guide.html"
+            }
+        },
+        {
+            "summary": "您已有高血壓，請多注意血壓變化。",
+            "indicator": "info",
+            "source": {
+                "label": "Hypertension",
+                "url": "https://cdrc.hpa.gov.tw/health-guide.html"
+            }
+        },
+        {
+            "summary": "65%",
+            "indicator": "critical",
+            "source": {
+                "label": "MACE",
+                "url": "https://cdrc.hpa.gov.tw/health-guide.html"
+            }
+        }
+    ]
+}

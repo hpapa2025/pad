@@ -1,0 +1,44 @@
+{
+    "cards": [
+        {
+            "summary": "4%",
+            "indicator": "info",
+            "source": {
+                "label": "CHD",
+                "url": "https://cdrc.hpa.gov.tw/health-guide.html"
+            }
+        },
+        {
+            "summary": "4%",
+            "indicator": "info",
+            "source": {
+                "label": "Stroke",
+                "url": "https://cdrc.hpa.gov.tw/health-guide.html"
+            }
+        },
+        {
+            "summary": "13%",
+            "indicator": "warning",
+            "source": {
+                "label": "Diabetes",
+                "url": "https://cdrc.hpa.gov.tw/health-guide.html"
+            }
+        },
+        {
+            "summary": "28%",
+            "indicator": "critical",
+            "source": {
+                "label": "Hypertension",
+                "url": "https://cdrc.hpa.gov.tw/health-guide.html"
+            }
+        },
+        {
+            "summary": "9%",
+            "indicator": "info",
+            "source": {
+                "label": "MACE",
+                "url": "https://cdrc.hpa.gov.tw/health-guide.html"
+            }
+        }
+    ]
+}
