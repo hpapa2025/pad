@@ -19,5 +19,6 @@ Description:    "此體重-Observation Body Weight PAD Profile說明PAD IG如何
 * valueQuantity.value ^short = "體重"
 * valueQuantity.code ^short = "單位"
 * valueQuantity.unit ^short = "單位"
+* subject 1..
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)

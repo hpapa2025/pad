@@ -22,5 +22,6 @@ Description:    "此每日運動距離-Observation Daily Distance PAD Profile說
 * valueQuantity.unit ^short = "單位"
 * valueQuantity.code = #km
 * valueQuantity.system = "http://unitsofmeasure.org"
+* subject 1..
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)

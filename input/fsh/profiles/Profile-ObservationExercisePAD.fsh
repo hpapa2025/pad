@@ -11,6 +11,7 @@ Description:    "此單次運動紀錄-Observation Exercise PAD Profile說明PAD
 * code.coding = http://loinc.org#82287-4
 * performer 1..1 MS
 * performer only Reference(PatientPAD)
+* subject 1..
 * subject only Reference(PatientPAD)
 * effective[x] 1..1
 * effective[x] only Period

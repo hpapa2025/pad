@@ -22,5 +22,6 @@ Description:    "此每日步數-Observation Daily Steps PAD Profile說明PAD IG
 * valueQuantity.unit ^short = "單位"
 * valueQuantity.code = #/d
 * valueQuantity.system = "http://unitsofmeasure.org"
+* subject 1..
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)

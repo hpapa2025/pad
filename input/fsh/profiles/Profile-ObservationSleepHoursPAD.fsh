@@ -23,5 +23,6 @@ Description:    "此睡眠時數-Observation Sleep Hours PAD Profile說明PAD IG
 * valueQuantity.system 1..1
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.value obeys 0-24
+* subject 1..
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)

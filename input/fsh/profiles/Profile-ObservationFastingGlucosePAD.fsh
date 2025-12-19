@@ -25,5 +25,6 @@ Description:    "此空腹血糖-Observation Fasting Glucose PAD Profile說明PA
 * valueQuantity.value ^short = "空腹血糖"
 * valueQuantity.unit ^short = "單位"
 * valueQuantity.code ^short = "單位"
+* subject 1..
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)

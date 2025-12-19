@@ -9,6 +9,7 @@ Description:    "此血壓(收縮壓+舒張壓)-Observation Blood Pressure PAD P
 * code.coding 1..1
 * code.coding ^slicing.rules = #closed
 * code.coding[BPCode] = http://loinc.org#85354-9
+* subject 1..
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)
 * effective[x] only dateTime

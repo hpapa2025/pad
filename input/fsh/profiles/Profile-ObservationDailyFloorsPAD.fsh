@@ -22,5 +22,6 @@ Description:    "此每日爬升樓層-Observation Daily Floors PAD Profile說�
 * valueQuantity.unit ^short = "單位"
 * valueQuantity.code = #/d
 * valueQuantity.system = "http://unitsofmeasure.org"
+* subject 1..
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)

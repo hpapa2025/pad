@@ -21,6 +21,7 @@ Description:    "此總膽固醇(含高密度膽固醇+低密度膽固醇)-Obser
 * valueQuantity.value ^short = "總膽固醇"
 * valueQuantity.code ^short = "單位"
 * valueQuantity.unit ^short = "單位"
+* subject 1..
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)
 * component 2..2 MS

@@ -23,6 +23,7 @@ Description:    "此站立時數-Observation Stand Hours PAD Profile說明PAD IG
 * valueQuantity.code = #h
 * valueQuantity.system 1..1
 * valueQuantity.system = "http://unitsofmeasure.org"
+* subject 1..
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)
 

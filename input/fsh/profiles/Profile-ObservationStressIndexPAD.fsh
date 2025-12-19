@@ -17,6 +17,7 @@ Description:    "此壓力指數-Observation Stress Index PAD Profile說明PAD I
 /* valueInteger ^minValueInteger = 0
 * valueInteger ^maxValueInteger = 12*/
 * valueInteger obeys 0-12
+* subject 1..
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)
 

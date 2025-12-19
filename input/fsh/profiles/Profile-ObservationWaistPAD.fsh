@@ -18,5 +18,6 @@ Description:    "此腰圍-Observation Waist PAD Profile說明PAD IG如何進一
 * valueQuantity.code = #cm
 * valueQuantity.unit = "cm"
 * valueQuantity.system = "http://unitsofmeasure.org"
+* subject 1..
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)

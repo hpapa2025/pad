@@ -7,6 +7,7 @@ Description:    "此吸菸習慣-Observation Smoking Status PAD Profile說明PAD
 * category[twcore].coding 1..1
 * code.coding 1..1
 * code.coding = http://loinc.org#72166-2
+* subject 1..
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)
 * effective[x] only dateTime

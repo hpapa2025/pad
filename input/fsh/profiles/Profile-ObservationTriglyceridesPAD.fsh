@@ -23,5 +23,6 @@ Description:    "此三酸甘油脂-Observation Triglycerides PAD Profile說明P
 * valueQuantity.value ^short = "三酸甘油脂"
 * valueQuantity.unit ^short = "單位"
 * valueQuantity.code ^short = "單位"
+* subject 1..
 * subject only Reference(PatientPAD)
 * performer only Reference(PatientPAD)
