@@ -11,16 +11,15 @@ Description:    "此使用者資訊-Patient PAD Profile說明PAD IG如何進一�
 * name[usual] 1..1
 * name[usual].text 1..1
 * address 1..1
-* address.postalCode 1..
-* address.postalCode.extension[PostalCode] 1..
-* address.postalCode.extension[PostalCode].valueCodeableConcept 1..
-* address.postalCode.extension[PostalCode].valueCodeableConcept.coding[PostalCode3] 1..1
+* address.district 1..
 * identifier contains hpa 1..1 MS
+* identifier[hpa].type 1..1
+* identifier[hpa].type.coding 1..1
 * identifier[hpa].type.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0203"
 * identifier[hpa].type.coding.code = #SNO
 * identifier[hpa].system 1..
 * identifier[hpa].system = "https://hpacorepa.hpa.gov.tw"
-* identifier[hpa].value 1.. MS
+* identifier[hpa].value 1..1 MS
 * identifier[hpa] ^short = "會員編碼"
 * identifier[hpa] obeys identifier-number
 
